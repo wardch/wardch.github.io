@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <head>
-<title> Charlie's blog </title>
+<title> Charlie's Technical Blog </title>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
 </head>
 
 <main>
-  <h1> This is the rough outline or template of my blog, it's not 100% finished or complete yet.  </h1>
-  <h2> The subtitle for whatever I'm choosing to write about </h2>
-  <h4> Today's date 7/2/15 </h4>
+  <h1> Version Control, Git and Github simplified and explained! </h1>
+  <h2> What is "Version Control" and what are it's benefits? </h2>
+  <h4> 07/02/2015 </h4>
 
 <section>
   <p>
-    This is the first section of your website you will fill this out with whatever thoughts that you like
+    Version Control is a tool that developers use to help them take a file, and build it up incrementally. Simply put, "version control" really just means having multiple versions of your file saved, in a chronological order. To explain version control better, I think it's helpful to take the analogy of a character progressing through a level on a game.
   </p>
 
   <p>
-    This is the second paragraph of the website, again you should fill this in with real content, whenever you next get the chance.
+    Let's say that a character starts out on a level of a game, and he eventually continues onwards towards his path. Maybe half way along his adventure, the character may suddenly reach a checkpoint. After reaching a checkpoint, if the character were to meet a foe in the game and die, instead of spawning again at the start of the level, our character would spawn at his most recent checkpoint. Handy considering starting of from the very beginning would be very frustrating. Think of version control as a tool which creates "checkpoints" in a file. As your file progresses towards completion by adding additional lines of code, perhaps at some point a bug may appear in the code. Instead of starting again from scratch, the coder can simply return to his last checkpoitn of saved version of his file. This is why version control is a very useful tool, as it saves developers a lot of time while writting code, as they do not have to return to the very begining each time they run into difficulty. Also it means that they can afford to be more experimental with their code because they know that they will always have a safe point of depature from which to start again, if they look back at their saved versions of their file, with a version control tool. (such as git)
+  </p>
+
+<h2> How does git help you keep track of changes? </h2>
+  <p>
+    Git is a "version control tool" that is a local entity. Local means that it occurs on your own computer. Git help you keep track of the various changes that you made to any one of the files that you worked on locally on your computer. This is very useful, as you can return to a previous "check point" if you feel like you are running into trouble with your code. You can view the previous changes that were made to a file on git by typing in:
+  </p>
+  <p>
+    git log
+  </p>
+
+  <h2> Why use GitHub to store your code? </h2>
+  <p>
+    GitHub is a remote entity. This means that it exists not on your own computer. GitHub is a site where people can upload (or push)their own files too, that they are working on, in their own computer. This is very useful when one considers how collaborating on one file with multiple developers might work.
   </p>
 
   <p>
-    THe last section of three. You can keep on adding sections by putting content surrounded by the paragraph tags.
+    On GitHub there exists a master branch. (Think of a tree) Like the main trunk of a tree which supports branch, the master trunk is the main source of code that the developers will be working on. If a developer wishes to tweek a certain part of the master branch a site like GitHub is very useful. A developer can branch off the master branch by forking off the main master branch. Then a developer may work on his own, on a file which was originally part of the master branch. When the developer is finished working on that file, they may upload it to GitHub and ask that other develoeprs incorporate their work back into the master branch to improve or progress the code that everyone is working on. A pull request is a request from that coder to another coder which says "Hey I'm finished editing this piece of code, can you review it and if it's good merge it into the master branch?"
+  </p>
+
+  <p>
+    If multiple people are working on the same project wouldn't it be chaos if everyone was merging onto the same project at once? It would be, unless they were using a cool version control website like GitHub. GitHub stores previous versions of a file that multiple people may simultaneously be working on. This makes sure that people don't accidentally overwrite one another's hard work. It also aids collaboration by offering coder's a second pair of eyes to review their code that they submitted (pull request) before it's accepted into the master branch.
   </p>
 </section>
 </main>
