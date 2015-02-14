@@ -1,0 +1,109 @@
+/*******************
+GENERAL
+********************/
+
+main {
+  max-width:940px;
+  padding:0 5%;
+  margin:0 auto;
+} /*This basically set's the size of the parent box for everything else. Everything which main contains like header, footer and section are sized relative to this box.*/
+
+
+
+/*******************
+HEADER
+********************/
+
+header {
+  border: 2px solid;
+  height: 60px;
+  background-color: #99CCCC;
+  margin:30px auto 10px auto;
+  max-width: 100%; /*The header takes up all of the width of the parent element "main" which has a max of 960px*/
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding-left: 30px;
+  display:inline;
+}
+
+.navbar {
+  text-align: center;
+} /*this aligned the child elements of navbar (our unordered list) to be aligned in the center.)*/
+
+.navbar li {
+  display:inline-block;
+  padding:0px 15px 0px;
+} /*Display inline-block means, so that the list elements flow in a horizonatal line, but still have some of the properties of a box. The padding 15px gives this amount of space between Blog, Portfolio, Contact and About*/
+
+.navbar ul {
+  padding:5px 10px 0px;
+} /*5px on top, 10px on right and left handside and 0px on bottom.*/
+
+
+.navbar a{
+  text-decoration: none;
+}
+
+span{
+  background-color: #CCFFCC;
+}
+
+
+
+/*******************
+SECTION
+********************/
+
+section {
+  text-align:center;
+  padding: 20px 5%;
+  margin: 20px 20%;
+} /*giving a margin of 20% on the sides center's the section containing the two blog posts with 20% of the browsers width being white space to the left and right*/
+
+.post1, .post2{
+  /*padding-top: 10%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+  border: 2px solid black;
+  min-height: 150px;
+} /*included min height to make the sizes of our blogs bigger*/
+
+
+
+/*******************
+SOCIAL
+********************/
+.social img{
+  height: 40px;
+  width: 40px;
+  margin: 0px;
+  float:left;
+  padding: 5px;
+  margin: 5px;
+}
+
+.social {
+  max-width: 100px;
+  float:left;
+}
+
+.social ul {
+  list-style: none;
+  float:left;
+}
+
+
+
+/*******************
+FOOTER
+********************/
+footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
