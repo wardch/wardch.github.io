@@ -6,6 +6,7 @@ main {
   max-width:940px;
   padding:0 5%;
   margin:0 auto;
+  line-height: 1.2em;
 } /*This basically set's the size of the parent box for everything else. Everything which main contains like header, footer and section are sized relative to this box.*/
 
 
