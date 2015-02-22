@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Charlie Ward | Coder </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+ </head>
+ <body>
+   <header>
+      <a href="index.html" id="logo">
+        <h1 id="title-name"> Charlie Ward </h1>
+      </a>
+      <nav>
+        <ul id="navg">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="./blog-list.html">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h2 id="subhead">An apprentice coder, recording how and what he learns.</h2>
+    </header>
+
+    <div id="wrapper">
+    <h1>Arrays vs Hashes, broken down!</h1>
+    <h2>I'll attempt to explain these concepts as clearly as I can, to an audience with little prior knowledge of these concepts! </h2>
+    <h4>20/02/2015</h4>
+
+    <ul> Outline
+      <li> Describe some context, then describe what do they both have in common. </li>
+      <li> So what are the differences. And how can you remember which is which? What's the benefits of useing one over the other</li>
+      <li> Now that I've explained what they are; let's talk about some some array and hashes tricks! </li>
+      <li> Conclude what is an array, what is a hash!</li>
+
+    <h2> Some context: What are arrays and hashes and when would we use them? (with examples!) </h2>
+
+    <p>
+      So let's start with an array. You can think of an array, as a kind of filing cabinet for things! Let's imgaine we have a filing cabinet that we use to "store" the names of different reptiles. We can choose how many reptiles names we would like to store in the cabinet. When we open the cabinet up, there are an infinite amount of "slots" (or indexes) for us to store our reptile names. So we want to make our first entry into the cabinet with the word "turtle". Logically we make our first entry in the first slot or index. Then after we do this, we want to store the word "lizard" in the reptile filing cabinet, we store this word in the index after turtle for our second entry. This process continues until we have as many reptiles names as we would like in our filing cabinet!
+    </p>
+
+    <p>
+      Now let's consider an array in a similar manner. An array is an object which can "store" various entries in it's slots or "indexes" just like a filing cabinet. You can then access to names which you have placed in your array whenever you would like. In a way it's a bit like the filing cabinet described above! Before going on I'll quickly show you what an array looks like in Ruby:
+    </p>
+
+    <p>
+      #code snippet
+
+reptiles = ['turtle', 'lizard', 'reptar', 'komodo dragon']
+    </p>
+
+    <p> So there you have it, an array is used to store data which can be accessed and manipulated once we know some techniques which I shall discuss later. An array can be used to store data about words (or 'strings'), it can store numbers, it can store boolean values (true/false), or it can even store other arrays, or hashes (which we shall dicuss later.)  An object can be stored in an array.
+    </p>
+
+    <p>
+      #code snippet of an array with multiple things.
+    </p>
+
+    <p> The last thing I'd like to discuss about arrays is how to access data within them. So an array uses a system called indexes to access information within the array. The index system looks like this:
+
+      #code snippet of array of multipe items.
+      #Code snippet of the array with 0, 1, 2, 3 etc.
+
+      You must remember that counting starts at the 0th number, not the 1st number. In this example array index 0, referes to turtle!
+    </p>
+
+    <h2> Accessing data within an array! </h2>
+    <p>
+      Now that we have a basic understanding of arrays it's time to start playing with them! We can access an item in an array by typing in it's index number, as follows:
+
+      reptiles[3] = 'Komodo Dragon'
+      reptiles[1] = 'Lizard' (note that index 1 referes to the second item, since counting starts at 0!)
+
+      Before I want to talk about iterating over array's let's mention what a hash is.
+     </p>
+
+     <h2> Hashes </h2>
+     <p>
+      Hashes are similar to arrays in the sense that they are both used to store data. However a hash uses key / value pairs. This means that within a hash there are a bunch of keys, which all points to different values. Here's what this looks like:
+
+      #code snippet: A hash of multiple items with keys.
+
+      Each key can only be typed in once though, however a value can be typed in multiple times. You could type in the key Conor McGregor and the value 'UFC champion' You could then use the key Anderson Silva with the value 'UFC champion again'. However once you typed in those two fighters names as keys, you can not use those two keys again.
+     </p>
+
+     <p>
+      Hashes are sometimes called <i>dictionaries</i> or <i> associative arrays </i>. In a way they are like array's however instead of using indexes to pull up values, they use keys to pull up values. Here's how this works:
+
+      #Code snippet.
+     </p>
+
+     <p>
+      Hashes can actually behave quite similar to arrays, in the sense that you can look up values in a hash by typing in the hash name followed by the index number of key for the corresponding value. This looks as follows:
+
+      #Code snippet.
+     </p>
+
+     <p>
+      You can even list out the various key/value pairs of an array as follows;
+
+      #Code snippet of lists of arrays and hashes.
+
+      So you can see that array's and hashes are similar. And it's possible to convert an array into a hash and visa versa as well, however I wont cover how to do that in this blog post! Arrays and Hashs are both useful since once we contain data in an array or hash we can then manipulate it with methods or through iterating over an array or hash. Method allow up to sort data, clean data, and structure it in a way that allows us to draw inferences about the data we are using! An in dept blog post about the different kinds of methods one can use for data manipulation in arrays and hashes is beyond the scope of this blog, but I'll provide a starting point with some of the most useful ones that I have stumbled upon thus far!
+     </p>
+
+     <h2> Further array and hash useful commands! </h2>
+
+     <p>
+      From my study of array and hashes I have discovered some useful commands which I shall discuss below:
+
+      #insert table of commands.
+      array.push
+      array.delete.
+      array.last
+      array.upto
+      array.max
+      etc.
+     </p>
+
+     <p>
+      That concludes my discussion of arrays and hashes! I hope I explained these concepts clearly! If you'd like to get in touch about my blog post shoot me a tweet and get in touch!
+     </p>
+
+      <div class="hline">
+      </div>
+
+      <footer>
+        <ul>
+          <li>Blog
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Popular</li>
+            </ul>
+          </li>
+          <li>Portfolio
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Viewed</li>
+            </ul>
+          </li>
+          <li>About
+            <ul>
+              <li>More Info</li>
+              <li>Contact</li>
+            </ul>
+          </li>
+        </ul>
+        <div id="social">
+          <a href="https://plus.google.com/u/0/103180266148243054743/about">
+          <img src="./imgs/googleplus.png" alt="google plus logo" class="social-icon"/></a>
+
+          <a href="https://www.facebook.com/charlie.ward.33865">
+          <img src="./imgs/facebook.png" alt="facebook logo" class="social-icon"/></a>
+
+          <a href="https://github.com/wardch/">
+          <img src="./imgs/github.png" alt="github logo" class="social-icon"/></a>
+
+          <a href="https://www.linkedin.com/profile/view?id=236147223&trk=nav_responsive_tab_profile_pic">
+          <img src="./imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
+
+          <a href="https://twitter.com/CharlieDubs23">
+          <img src="./imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
+        </div>
+      </footer>
+    </div> <!--wrapper-->
+  </body>
+</html>
