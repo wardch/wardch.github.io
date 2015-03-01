@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Charlie Ward | Coder </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+ </head>
+ <body>
+   <header class="wrapper">
+      <a href="../index.html" id="logo">
+        <h1> Charlie Ward </h1>
+      </a>
+      <nav>
+        <ul id="navg">
+          <li><a href="../portfolio.html">Portfolio</a></li>
+          <li><a href="../blog-list.html">Blog</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="..about.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="blog-post">
+      <h1>A Breakdown of the Enumerable Method: group_by</h1>
+      <h2>This post explains the method "group_by" in Ruby</h2>
+      <h4>01/03/2015</h4>
+
+      <p>
+        The method group_by in Ruby is a pretty aptly named method. You'd use this method when there are a bunch of objects which you would like to organize into groups. For example let's say you have a list of 6 words and you'd like to organize those words into groups, based on the length of each word. You use the method "group_by" to form a hash, where each "group" contains words, and each group is unique, containing only words of a certain length! And that's group_by briefly explained, but my "words:example" ratio is getting alarmingly high, so I'll demonstrate how nice an enumerable method group by really is:
+      </p>
+      <p>
+        <img src="../imgs/actors.png" alt="array of actors" height="200" width="550">
+      </p>
+
+      <p>
+        Above is an array of actors which are grouped by the first letter in their name. The resulting output is a hash. The keys of the hash are what we are grouping by (in this case each group is based on a letter from the alphabet). The values of the hash are what each group contains. (In this case it's the various actors who share a common letter, of their first name). To sum up, we used "group_by" to make groups of actors.
+      </p>
+
+      <p>
+        Here is an example using numbers:
+      </p>
+      <p>
+        <img src="../imgs/numbers.png" alt="numbers and a modulus of 3" height="200" width="550">
+      </p>
+
+      <p>
+        In this example we grouped the numbers based on the code block after out method. The groups are formed based on what is left over when you divide each one of the numbers in our range, by 3. For example in the group 0, When you divide 3, 6 and 9 by 3, the remainder is 0. It's important to realize that each group in the method group_by is formed from the code block after the method; group_by. Understanding how the groups are made (from the block of code after the method), is key to understanding group_by.
+      </p>
+
+      <p> Lastly here's a group by method where movies are sorted into the length of their title:
+      </p>
+
+      <p>
+        <img src="../imgs/blockbusters.png" alt="list of famous movies" height="200" width="550">
+      </p>
+
+      <p>
+        What can we learn from this example? If you want to create a hash where the keys are group titles and the values are members of each group, then <b>group_by</b> is your method! Once groups are created it can be easier to manipulate and sort data, which makes group_by a very useful function. In case this blog was no descriptive enough, I have left two useful links below for additional reading on group_by
+      </p>
+
+      <h2> Additional resources for: group_by </h2>
+      <p>
+        <ul>
+        <li><a href="http://markusjais.com/the-group_by-method-from-rubys-enumerable-mixin-and-compared-with-scal/"> Group by explained with code examples</a></li>
+        <li><a href="http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-group_by"> Group by shown in the Ruby docs </a></li>
+      </p>
+
+
+
+   <div class="hline">
+   </div>
+   <footer class="wrapper">
+        <ul>
+          <li>Blog
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Popular</li>
+            </ul>
+          </li>
+          <li>Portfolio
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Viewed</li>
+            </ul>
+          </li>
+          <li>About
+            <ul>
+              <li>More Info</li>
+              <li>Contact</li>
+            </ul>
+          </li>
+        </ul>
+        <div id="social">
+          <a href="https://plus.google.com/u/0/103180266148243054743/about">
+          <img src="../imgs/googleplus.png" alt="google plus logo" class="social-icon"/></a>
+
+          <a href="https://www.facebook.com/charlie.ward.33865">
+          <img src="../imgs/facebook.png" alt="facebook logo" class="social-icon"/></a>
+
+          <a href="https://github.com/wardch/">
+          <img src="../imgs/github.png" alt="github logo" class="social-icon"/></a>
+
+          <a href="https://www.linkedin.com/profile/view?id=236147223&amp;trk=nav_responsive_tab_profile_pic">
+          <img src="../imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
+
+          <a href="https://twitter.com/CharlieDubs23">
+          <img src="../imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

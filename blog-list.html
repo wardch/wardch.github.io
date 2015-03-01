@@ -7,14 +7,14 @@
   <link rel="stylesheet" type="text/css" href="main.css" />
  </head>
  <body>
-   <header>
+   <header class="wrapper">
     <a href="index.html" id="logo">
       <h1> Charlie Ward </h1>
     </a>
     <nav>
       <ul id="navg">
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="blot-list.html">Blog</a></li>
+        <li><a href="blog-list.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -22,76 +22,76 @@
     <h2>Browse by <a href="#">catagory</a> or <a href="#">date</a></h2>
     </header>
 
-    <div class="wrapper">
+
       <h1>Blog</h1>
       <div class="hline">
       </div>
-      <div class="blog-sidebar">
-        <img src="./imgs/puzzle.jpg" id="version" alt="Cultural Blog about my thinking style">
-        <h4>Subject: A review of my thinking styles!</h4>
+      <div class="blog-info">
+        <img src="./imgs/puzzle.jpg" width="400" height="250" alt="Cultural Blog about my thinking style">
+        <h4>Subject: Thinking Styles </h4>
         <h4>Date: 22/02/2015</h4>
       </div>
 
-      <div class="blog-teaser">
+      <div class="blog-intro">
         <h1>My Thinking Styles</h1>
+        <div class="overflow">
         <p> I'm trying to become more self-aware about how I learn, because the first step to positive change I believe is self-awareness. I started my self-examination with a test that was designed by Anthoney Gregorc to categorize people into the various kinds of learners that they are. Different people have different ways of approaching problems, and ideal environments within which they learn. There are four categories, within which people may fall. Typically people will have traits belonging to a number of different categories. My results are below:
          </p>
+       </div>
 
-        <a href="./blog/c3-thinking-style.html">
-        <div class="readmore">
-          <p>Read More</p>
-        </div></a>
+        <a href="./blog/c3-thinking-style.html" class="btn btn-read"> Read More </a>
       </div>
       <div class="hline">
       </div>
-      <div class="blog-sidebar">
-        <img src="./pairprog-scott/imgs/racers.jpg" id="version" alt="race car drivers">
-        <h4>subject: Pair Programming</h4>
+      <div class="blog-info">
+        <img src="./pairprog-scott/imgs/racers.jpg" width="400" height="250" alt="race car drivers">
+        <h4>Subject: Pair Programming</h4>
         <h4>Date: 22/02/2015</h4>
       </div>
 
-      <div class="blog-teaser">
+      <div class="blog-intro">
         <h1>What is Pair Programming?</h1>
+        <div class="overflow">
         <p>Pair programming is a technique used by developers to collaborate with each other on their code.
         Usually, pairs of programmers will assume the roles of "driver" and "navigator".
         With pair programming, developers can work together to establish a strategic direction for
         their projects and review each others' code.
          </p>
-         <a href="./pairprog-scott/pairprog.html">
-        <div class="readmore">
-          <p>Read More</p>
-        </div></a>
+       </div>
+         <a href="./pairprog-scott/pairprog.html" class="btn btn-read"> Read More</a>
       </div>
       <div class="hline">
       </div>
-      <div class="blog-sidebar">
-        <img src="./imgs/filing.jpg" id="version" alt="a filing cabinet, introducing the topic of storage">
-        <h4>The Difference Between Arrays and Hashes!</h4>
+      <div class="blog-info">
+        <img src="./imgs/filing.jpg" width="400" height="250" alt="a filing cabinet, introducing the topic of storage">
+        <h4>Subject: Ruby</h4>
         <h4>Date: 22/02/2015</h4>
       </div>
 
-      <div class="blog-teaser">
+      <div class="blog-intro">
         <h1>Arrays vs. Hashes</h1>
+        <div class="overflow">
         <p>I'll try and break down the topics of Arrays and Hashes, their similarities and differences, for an audience with little prior background knowledge of these concepts.So let's start with an array. You can think of an array, as a kind of filing cabinet for things! Let's imgaine we have a filing cabinet that we use to "store" the names of different reptiles. We can choose how many reptiles names we would like to store in the cabinet. When we open the cabinet up, there are an infinite amount of "slots" (or indexes) for us to store our reptile names. So we want to make our first entry into the cabinet with the word "turtle".
          </p>
+       </div>
 
-        <a href="./blog/t3-arrays-hashs.html">
-        <div class="readmore">
-          <p>Read More</p>
-        </div></a>
+        <a href="./blog/t3-arrays-hashs.html" class="btn btn-read"> Read More </a>
       </div>
       <div class="hline">
       </div>
-      <div class="blog-sidebar">
-        <img src="./imgs/positioning.gif" id="version" alt="layout of a webpage">
-        <h4>Positioning: Relative, Absolute, Fixed. </h4>
+      <div class="blog-info">
+        <img src="./imgs/positioning.gif" width="400" height="250" alt="layout of a webpage">
+        <h4>Subject: CSS </h4>
         <h4>Date: 22/02/2015</h4>
       </div>
 
-      <div class="blog-teaser">
+      <div class="blog-intro">
         <h1>Positioning</h1>
+        <div class="overflow">
         <p>I'll try offer some insight into the difference between CSS positioning types, namely relative, fixed and absolute.
-          <p>Relative positioning is relatively easy to understand! If you type in a css file:
+        </p>
+
+        <p>Relative positioning is relatively easy to understand! If you type in a css file: <br>
 
             h1 {
             position:relative;
@@ -100,51 +100,44 @@
 
           It means that the elements between all of the h1 tags in your HTML file, will appear 50px to the left of where they would have appeared otherwise!
           </p>
-         </p>
+        </div>
 
-        <a href="./blog/t2-css-design.html">
-        <div class="readmore">
-          <p>Read More</p>
-        </div></a>
+        <a href="./blog/t2-css-design.html" class="btn btn-read">Read More</a>
       </div>
       <div class='hline'>
       </div>
-      <div class="blog-sidebar">
-        <img src="./imgs/chefs.jpg" id="chefs" alt="chefs cooking">
-        <h4>Subject: DBC culture</h4>
+      <div class="blog-info">
+        <img src="./imgs/chefs.jpg" alt="chefs cooking" width="400" height="250">
+        <h4>Subject: DBC Culture</h4>
         <h4>Date: 13/02/2015</h4>
       </div>
 
-      <div class="blog-teaser">
+      <div class="blog-intro">
         <h1>Cooking in the DBC kitchen! </h1>
-        <p> In this blog post I’d like to try and compare the DBC model of education to the more traditional models of education which I have been involved in for the last 4 years of my life, namely the university. I want to compare DBC with other institutions of education such as the university to highlight the differences in effective teaching methods that are applied in DBC but not the university, and as a result DBC offer’s a steeper learning curve to it’s students then a typical university.</p>
-        <div class="readmore">
-          <a href="./blog/c1-chefs-kitchen.html">
-          <p>Read More</p></a>
+        <div class="overflow">
+          <p> In this blog post I’d like to try and compare the DBC model of education to the more traditional models of education which I have been involved in for the last 4 years of my life, namely the university. I want to compare DBC with other institutions of education such as the university to highlight the differences in effective teaching methods that are applied in DBC but not the university, and as a result DBC offer’s a steeper learning curve to it’s students then a typical university.</p>
         </div>
+        <a href="./blog/c1-chefs-kitchen.html" class="btn btn-read"> Read More</a>
       </div>
       <div class="hline">
       </div>
-      <div class="blog-sidebar">
-        <img src="./imgs/versioncontrol.png" id="version" alt="DBC week1 technical blog">
-        <h4>Subject: DBC culture</h4>
+      <div class="blog-info">
+        <img src="./imgs/versioncontrol.png" alt="DBC week1 technical blog" width="400" height="250">
+        <h4>Subject: Version Control</h4>
         <h4>Date: 13/02/2015</h4>
       </div>
-
-      <div class="blog-teaser">
+      <div class="blog-intro">
         <h1>Version Control</h1>
-        <p> Version Control is a tool that developers use to help them take a file, and build it up incrementally. Simply put, "version control" really just means having multiple versions of your file saved, in a chronological order. To explain version control better, I think it's helpful to take the analogy of a character progressing through a level on a game.
-
-         </p>
-
-        <a href="./blog/t1-git-blog.html">
-        <div class="readmore">
-          <p>Read More</p>
-        </div></a>
+        <div class="overflow">
+          <p> Version Control is a tool that developers use to help them take a file, and build it up incrementally. Simply put, "version control" really just means having multiple versions of your file saved, in a chronological order. To explain version control better, I think it's helpful to take the analogy of a character progressing through a level on a game.
+          </p>
+        </div>
+        <a href="./blog/t1-git-blog.html" class="btn btn-read">
+        Read More</a>
       </div>
       <div class="hline">
       </div>
-      <footer>
+      <footer class="wrapper">
         <ul>
           <li>Blog
             <ul>
@@ -175,13 +168,12 @@
           <a href="https://github.com/wardch/">
           <img src="./imgs/github.png" alt="github logo" class="social-icon"/></a>
 
-          <a href="https://www.linkedin.com/profile/view?id=236147223&trk=nav_responsive_tab_profile_pic">
+          <a href="https://www.linkedin.com/profile/view?id=236147223&amp;trk=nav_responsive_tab_profile_pic">
           <img src="./imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
 
           <a href="https://twitter.com/CharlieDubs23">
           <img src="./imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
         </div>
       </footer>
-    </div> <!--wrapper-->
   </body>
 </html>
