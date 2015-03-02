@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="../main.css" />
  </head>
  <body>
-   <header>
+   <header class="wrapper">
       <a href="../index.html" id="logo">
         <h1> Charlie Ward </h1>
       </a>
@@ -20,10 +20,11 @@
         </ul>
       </nav>
     </header>
-    <div class="wrapper">
-      <a href="../blog-list.html"><p>&#8592; Back to Blog</p></a>
-      <div class="hline">
+
+   <a href="../blog-list.html" id="backtob"> &#8592; Back to Blog </a>
+      <div class="hline-intro">
       </div>
+    <div id="blog-post">
 
       <h1>The Differences between Relative, Fixed and Absolute Positioning.</h1>
       <h2>I'll try offer some insight into the difference between CSS positioning types, namely relative, fixed and absolute. </h2>
@@ -64,11 +65,11 @@
             Imagine if the parent element of a child element was the browser window. Now you have an idea of what fixed positioning is. Fixed positioning fixes and element to a browser window. The element will not move up or down as the user scrolls up and down. This is useful for when a coder may be making a website which has a header that will remain on the page, no matter how much a user scrolls down.
           </p>
 
-  <!--content-->
-<div class="hline">
-      </div>
+ </div>
+   <div class="hline-intro">
+   </div>
 
-      <footer>
+   <footer class="wrapper">
         <ul>
           <li>Blog
             <ul>
@@ -99,13 +100,13 @@
           <a href="https://github.com/wardch/">
           <img src="../imgs/github.png" alt="github logo" class="social-icon"/></a>
 
-          <a href="https://www.linkedin.com/profile/view?id=236147223&trk=nav_responsive_tab_profile_pic">
+          <a href="https://www.linkedin.com/profile/view?id=236147223&amp;trk=nav_responsive_tab_profile_pic">
           <img src="../imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
 
           <a href="https://twitter.com/CharlieDubs23">
           <img src="../imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
         </div>
       </footer>
-    </div>
+  </body>
 </html>
 

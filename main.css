@@ -12,7 +12,7 @@ GENERAL
 
 a {
   text-decoration: none;
-  color: white;
+  color: #599a68;
 }
 
 a:hover {
@@ -29,8 +29,6 @@ body {
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
-    border: 1px solid black;
-    padding: 0px 30px;
 }
 
 .hline {
@@ -39,11 +37,23 @@ body {
   clear: both;
 }
 
-h1, h2, h3 {
-  margin-bottom: 22px; 
-  margin-top: 60px; 
-  margin-left:  40px;
+
+.blog-intro h1 {
+margin-left: 130px;
 }
+
+
+/*h1, h2, h3 {
+  margin-bottom: 22px;
+  margin-top: 60px;
+  margin-left:  40px;
+}*/
+
+header a {
+  color: white;
+}
+
+
 
 
 /*************************
@@ -59,6 +69,11 @@ header {
   color: white;
 }
 
+.wrapper > h1, h2 {
+  margin: 0;
+  background-color: #599a68;
+}
+
 
 #navg {
     text-align: right;
@@ -66,16 +81,24 @@ header {
     list-style: none;
 }
 
- #subhead, h2 {
-  background-color: #599a68;
-  padding: 5px 5px;
-}
 
 img {
   max-height: 250;
   max-widhth: 400;
 }
 
+#backtob {
+  position: relative;
+  top: 40px;
+  left: 70px;
+  color: #599a68;
+}
+
+.hline-intro {
+  border: 1px solid black;
+  margin: 40px 5%;
+  clear: both;
+}
 /*************************
 SECTION
 /*************************/
@@ -140,6 +163,7 @@ PAGE: BLOG LIST
   border-radius: 5px;
   margin-left: 150px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .blog-info {
@@ -155,9 +179,9 @@ PAGE: BLOG LIST
   margin-bottom: 30px;
 }
 
-.blog-intro > h1 {
+/*.blog-intro > h1 {
   margin-left: 140px;
-}
+}*/
 
 .overflow {
   overflow: hidden;
@@ -187,8 +211,6 @@ BLOG POST
 }
 
 #blog-post > h1, h2, h3, h4 {
-  /* margin-left: 20%; */
-  /* margin-right:  30%; */
-  /* margin-top: 60px; */
-  /* margin-bottom: 30px; */
+margin-left: 0;
+margin-top: 40px;
 }
