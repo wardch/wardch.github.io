@@ -214,3 +214,18 @@ BLOG POST
 margin-left: 0;
 margin-top: 40px;
 }
+
+th, td {
+  padding: 7px 10px 10px 10px;
+}
+
+th {
+  border-bottom: 2px solid #111111;
+  font-size: 90%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+tr.even {
+  background-color: #c3e6e5;
+}
