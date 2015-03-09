@@ -1,0 +1,130 @@
+/***********************
+GENERAL
+***********************/
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#logo {
+  float: left;
+  border: 5px solid #4183D7;
+}
+
+body {
+  background-color: #efefef;
+}
+
+header h1 {
+  float: right;
+  color: white;
+  font-size: 3em;
+  position: relative;
+  top: 20px;
+  right: 20px;
+
+}
+
+nav ul {
+  float:left;
+}
+
+#navg a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+#navg li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#navg {
+    margin: 10px, auto;
+    list-style: none;
+    clear: both;
+    background-color: #4183D7;
+}
+
+
+header.wrapper {
+  background-color: #59ABE3;
+}
+
+.hline {
+  border: 1px solid black;
+  clear: both;
+  margin: 5px 60px 5px 20px;
+}
+
+/***********************
+INDEX
+***********************/
+.image-left {
+  float: left;
+  width: 30%;
+  margin: 0 1.5%;
+  margin-bottom: 30px;
+}
+
+
+.text-right {
+  width: 63%;
+  margin: 0 1.5%;
+  float: right;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  clear: both;
+}
+
+/***********************
+ABOUT
+***********************/
+
+.image-right {
+  float: right;
+  width: 30%;
+  margin: 0 1.5%;
+  margin-bottom: 30px;
+}
+
+
+.text-left {
+  width: 63%;
+  margin: 0 1.5%;
+  float: left;
+  margin: 1.5% 0 1.5% 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/***********************
+SERVICES
+***********************/
+
+.text-center {
+  width: 600px;
+  margin: 30px auto;
+  margin-bottom: 30px;
+}
+
+
+/***********************
+CONTACT
+***********************/
+
+#contact li {
+  padding: 10px;
+}
+
+
