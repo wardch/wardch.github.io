@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Charlie Ward | Coder </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+ </head>
+ <body>
+   <header class="wrapper">
+      <a href="../index.html" id="logo">
+        <h1> Charlie Ward </h1>
+      </a>
+      <nav>
+        <ul id="navg">
+          <li><a href="../portfolio.html">Portfolio</a></li>
+          <li><a href="../blog-list.html">Blog</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="..about.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <a href="../blog-list.html" id="backtob"> &#8592; Back to Blog </a>
+    <div class="hline-intro">
+    </div>
+    <div id="blog-post">
+
+      <h1>Functions in JavaScript and Ruby compared! </h1>
+
+      <img src="../imgs/t7-JavaScript/machine.jpg" alt="Function Machine" height="312" width="600">
+
+      <h2>Subject: Functions in Ruby and Java script</h2>
+
+      <h4>23/03/2015</h4>
+
+<h2> What are functions? </h2>
+
+<p>
+Once you get your head around what a function does, then learning the various syntactic idiosyncrasies of Ruby and JavaScript are the only important things in understanding functions for both of these languages, because both languages have their own ways of expressing the same idea of what a function should do and fortunately enough, there is a lot of overlap between how functions operate in both Ruby and JavaScript.
+</p>
+
+<p>
+So what is a function? Simply put a function takes an input, performs some alteration to the input, and then produces an output. I think it’s easy to conceptualize a function with the help of the Mr. Men character series. Mr.Men characters are a good analogy to functions since they too operate on a set of rules which guides their behavior and output in the world.
+</p>
+
+ <img src="../imgs/t7-JavaScript/nonsense.jpg" alt="Mr Nonsense" height="312" width="600">
+
+ <p>
+ Imagine if you asked Mr Loud to say the word: spaghetti. Being Mr Loud how operates by a set of rules which makes all input he receives louder, he will probably output: "SPAGHETTI" in all uppercase. Imagine if you asked Mr Nonsense to repeat the words "Delicious Fudge", being Mr Non Sense he might return your input in gibberish form; where each letter you told him as input has been randomly shuffled to produce an output as follows: "Iuege Ddlousfci!"
+ "</p>
+
+ <p>
+Think of the Mr. Men characters as functions; they have a set of rules; Mr Shout will always shout; and return your input as a string in uppercase. Mr Nonsense will always shuffle your characters.
+</p>
+
+<p>
+A function like square will square a number you feed in. And more complicated functions can be two, three or four steps long, performing calculations to the input which you feed them and producing a desired output.
+</p>
+
+<p>
+Here is an example of a function being defined in Ruby:
+</p>
+
+<p>
+  def times_three(n) { <br>
+return n*3 <br>
+}; <br>
+</p>
+
+<p>
+In the two languages of JavaScript and Ruby functions are written in different ways, however they accomplish the same goals, manipulating input with a set of rules to create a different output. In Ruby a function is defined with the key word def. The (n) after the function name times_three takes an argument which can be any number which we choose to feed in once we call the function. The block of code after the a (n) in the curly braces is what happens to input to produce output.
+</p>
+
+
+<p>
+Calling "times_three(4)"  this will produce the output 12. We can now calculate the result of any number multiplied by 3, by feeding in the number as an argument in our new function. This helps keep our code DRY as we will not repeat ourselves.
+</p>
+
+
+<p>
+In both languages once functions are defined they can be invoked or called, later in the code, by typing out the function and feeding in optional arguments, depending on if the function was defined with parameters.
+</p>
+
+<p>
+Inside the functions in JavaScript and Ruby the arguments are used as local variables. All variables defined within a function have a local scope in both languages. It is possible to reference and use a variable which has been defined outside of a function however you cannot references a variable which has been defined as inside a function. Think of variables defined within a function as being within a yellow submarine. They can peek out above them with a periscope at other variables around them, but variables outside the submarine can’t peek in at them.
+</p>
+
+ <img src="../imgs/t7-JavaScript/submarine.jpg" alt="submarine" height="312" width="600">
+
+
+<p>
+The fact that variables have a local scope within functions in Java Script and Ruby is useful for preserving the name space, as we can reuse variable names inside and outside the function, check out the code snippet below which highlights this point:
+</p>
+
+<img src="../imgs/t7-JavaScript/ambivalent.png" alt="double meanining variable" height="312" width="600">
+
+
+<p>
+When both languages reach the word return in their function, they will stop executing. In Ruby if you don’t specify a return value, the last line of the code is evaluated and returned as if the word return was present. The return values is returned back to the “caller” which is usually the method.
+</p>
+
+<p>
+A big difference in functions in these two languages is that Ruby will return an argument error if there are not the exact number of arguments typed into the function as the parameters which we set up when creating the function. JavaScript is more relaxed about this though, it will not return a fatal error, instead it will return the word undefined. Although this sounds useful since we are not receiving an error it can actually be a problem when writing code because it can be difficult to spot an argument issue in our code because everything appears to be working just fine! Here’s an example.
+</p>
+
+<h2> Ruby </h2>
+
+<img src="../imgs/t7-JavaScript/arg_error.png" alt="Mr Nonsense" height="312" width="600">
+
+<h2> And JavaScript </h2>
+
+<img src="../imgs/t7-JavaScript/javascript_args.png" alt="JavaScript Arguments" height="312" width="600">
+
+<p>
+That concludes what functions are, and how they are mostly similar in these two languages with the notable exception of how each language handles the incorrect amount of arguments when the function is called. I hope I have made the concept of a function more accessible through the use of Mr. Men characters, since functions operate on a set of rules which guides their output I thought Mr.Men characters are a good analogy since they too operate on a set of rules which guides their behavior and output in the world. Plus how scary can the concept of functions be to approach with lovable Mr Men characters there to aid the learning process!
+</p>
+
+
+
+
+
+</div>
+
+
+
+   <footer class="wrapper">
+        <ul>
+          <li>Blog
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Popular</li>
+            </ul>
+          </li>
+          <li>Portfolio
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Viewed</li>
+            </ul>
+          </li>
+          <li>About
+            <ul>
+              <li>More Info</li>
+              <li>Contact</li>
+            </ul>
+          </li>
+        </ul>
+        <div id="social">
+          <a href="https://plus.google.com/u/0/103180266148243054743/about">
+          <img src="../imgs/googleplus.png" alt="google plus logo" class="social-icon"/></a>
+
+          <a href="https://www.facebook.com/charlie.ward.33865">
+          <img src="../imgs/facebook.png" alt="facebook logo" class="social-icon"/></a>
+
+          <a href="https://github.com/wardch/">
+          <img src="../imgs/github.png" alt="github logo" class="social-icon"/></a>
+
+          <a href="https://www.linkedin.com/profile/view?id=236147223&amp;trk=nav_responsive_tab_profile_pic">
+          <img src="../imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
+
+          <a href="https://twitter.com/CharlieDubs23">
+          <img src="../imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
+        </div>
+      </footer>
+  </body>
+</html>

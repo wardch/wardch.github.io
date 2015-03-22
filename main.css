@@ -10,6 +10,7 @@ GENERAL
 }
 
 
+
 a {
   text-decoration: none;
   color: #599a68;
@@ -240,3 +241,14 @@ th {
 tr.even {
   background-color: #c3e6e5;
 }
+
+/*******************
+MEDIA SCREEN
+*******************/
+
+@media screen and (max-width: 300px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
