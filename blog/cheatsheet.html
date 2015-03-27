@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+  <title>JS Prototypes Cheat Sheet</title>
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" type="text/css" href="./../stylesheets/default.css"> -->
+ <!--  <link rel="stylesheet" type="text/css" href="https://e47my54uc3.github.io/stylesheets/blog-stylesheet.css"> -->
+
+  <link rel="stylesheet" type="text/css" href="cheat-sheet.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="./../stylesheets/blog-stylesheet.css"> -->
+
+</head>
+
+<main>
+
+  <section>
+  <h2 class="title">Time to Cheat!</h2>
+
+  <h3 class="subtitle">Javascript Prototypes</h3>
+  <p class="subtitle"> by Charlie Ward & Raghu Reddy</p>
+  <p class="date">2/18/2015</p>
+  </section>
+
+
+
+  <article class="blog"> <!-- added blog class to article, everything within article now inherits blog properties -->
+
+  <h2>So, what exactly is a Javascript prototype?</h2>
+
+  <p>For this cheat sheet we're going to go over Javascript prototypes.Javascript doesn't share classical inheritance in the way that Object oriented languages do (with classes, parent classes, child classes, etc.) Nevertheless, inheritance is still present in Javascript thanks to the concept of the 'prototype'. In order to follow DRY programming principles, Javascript has created a simple way to add, update, inherit, and lookup properties of linked sets of Objects. The mechanism that is used to perform all of these actions is the 'constructor' function, which relates to the JS Object's prototype.<p>
+
+  <p>Broadly speaking, prototype is a Javascript method inherent in all Javascript objects.</p>
+
+   <p> Let's walk through an example to really flesh out how it works:</p>
+     <blockquote>
+    <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">function</span> <span style="color: #a6e22e">Animal</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">name</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">numLegs</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #66d9ef">this</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">name</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">name</span><span style="color: #f8f8f2">;</span>
+        <span style="color: #66d9ef">this</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">numLegs</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">numLegs</span><span style="color: #f8f8f2">;</span>
+    <span style="color: #f8f8f2">}</span>
+    </pre></div>
+  </blockquote>
+
+  <p>
+    First we are creating a new animal constructor function, which takes in two parameters, and assigns those two parameters to properties, by the name of "name" and "numLegs", which are properties of "this" object which we are in. (which refers to a function object, named Animal).
+  </p>
+
+  <h2>How does the prototype affect inheritance?</h2>
+
+  <p>
+    If we want to add properties or methods to the Animal constructor, we use the prototype property. Prototype will allow us to alter the state of the animal function that we have created. If we add functions to our prototype, they're now known as "methods".  Here we have added a "sayName" method to the Animal object.
+  </p>
+
+    <blockquote><!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">Animal</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">prototype</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">sayName</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">()</span> <span style="color: #f8f8f2">{</span>
+      <span style="color: #a6e22e">console</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">log</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;Hi my name is &quot;</span> <span style="color: #f92672">+</span> <span style="color: #66d9ef">this</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">name</span><span style="color: #f8f8f2">);</span>
+    <span style="color: #f8f8f2">};</span>
+
+    <span style="color: #a6e22e">Animal</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">prototype</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">heartbeat</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">true</span><span style="color: #f8f8f2">;</span>
+    </pre></div>
+    </blockquote>
+
+  <p>
+      Now we'll demonstrate how a newly made constructor function can inherit methods and properties from a preexisting constructor function(animal).
+  </p>
+
+  <blockquote>
+    <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">// define a Penguin class</span>
+    <span style="color: #66d9ef">function</span> <span style="color: #a6e22e">Penguin</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">name</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #66d9ef">this</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">name</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">name</span><span style="color: #f8f8f2">;</span>
+        <span style="color: #66d9ef">this</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">numLegs</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">;</span>
+    <span style="color: #f8f8f2">};</span>
+    </pre></div>
+  </blockquote>
+
+  <p>
+     We create the penguin object, and then use the code snippet below to move Animal's methods and properties into our new Penguin object.
+  </p>
+
+  <blockquote>
+    <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">// set its prototype to be a new instance of Animal</span>
+    <span style="color: #a6e22e">Penguin</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">prototype</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">Animal</span><span style="color: #f8f8f2">();</span>
+    </pre></div>
+  </blockquote>
+
+ <h2>Inheritance, via Prototypes</h2>
+
+  <p>Now every penguin will be known as a new animal on top of being it's own new Penguin. It's like inheritance after the fact. Just like in classical inheritance prototype properties and methods will override equivalently named animal elements that go by the same name. In this case for example, all Penguins numLegs are set to a default of two, even if we pass in 4 legs.
+  </p>
+
+  <blockquote>
+      <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">penguin</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">Penguin</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;Jimbo&quot;</span><span style="color: #f8f8f2">);</span>
+
+  <span style="color: #75715e">// penguin.sayName</span>
+
+  <span style="color: #66d9ef">var</span> <span style="color: #a6e22e">penguin2</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">Penguin</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;LeeRoy&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">4</span><span style="color: #f8f8f2">);</span>
+  <span style="color: #75715e">// =&gt; { name: &#39;LeeRoy&#39;, numLegs: 2 };</span>
+  </pre></div>
+  </blockquote>
+
+  <p>
+  Even though we have a numLegs property in our Animal object, which our Penguin object inherited, our Penguin object has a property that over-wrote the numLegs property. This mimics classical inheritance
+  </p>
+
+  <blockquote>
+    <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">console</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">log</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">penguin2</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">heartbeat</span><span style="color: #f8f8f2">);</span>
+    <span style="color: #75715e">// =&gt; true</span>
+    </pre></div>
+  </blockquote>
+
+  <p>
+  This was inherited from the animal object, since the Penguin object didn't have a preexisting heartbeat property.
+  </p>
+ </article>
+
+</main>
