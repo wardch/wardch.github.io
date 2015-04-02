@@ -27,7 +27,7 @@
 
       <h1>Functions in JavaScript and Ruby compared! </h1>
 
-      <img src="../imgs/t7-JavaScript/machine.jpg" alt="Function Machine" height="312" width="600">
+      <img src="../imgs/t7-JavaScript/machine.jpg" alt="Function Machine" width="600">
 
       <h2>Subject: Functions in Ruby and Java script</h2>
 
@@ -43,7 +43,7 @@ Once you get your head around what a function does, then learning the various sy
 So what is a function? Simply put a function takes an input, performs some alteration to the input, and then produces an output. I think it’s easy to conceptualize a function with the help of the Mr. Men character series. Mr.Men characters are a good analogy to functions since they too operate on a set of rules which guides their behavior and output in the world.
 </p>
 
- <img src="../imgs/t7-JavaScript/nonsense.jpg" alt="Mr Nonsense" height="312" width="600">
+ <img src="../imgs/t7-JavaScript/nonsense.jpg" alt="Mr Nonsense" width="400">
 
  <p>
  Imagine if you asked Mr Loud to say the word: spaghetti. Being Mr Loud how operates by a set of rules which makes all input he receives louder, he will probably output: "SPAGHETTI" in all uppercase. Imagine if you asked Mr Nonsense to repeat the words "Delicious Fudge", being Mr Non Sense he might return your input in gibberish form; where each letter you told him as input has been randomly shuffled to produce an output as follows: "Iuege Ddlousfci!"
@@ -85,14 +85,33 @@ In both languages once functions are defined they can be invoked or called, late
 Inside the functions in JavaScript and Ruby the arguments are used as local variables. All variables defined within a function have a local scope in both languages. It is possible to reference and use a variable which has been defined outside of a function however you cannot references a variable which has been defined as inside a function. Think of variables defined within a function as being within a yellow submarine. They can peek out above them with a periscope at other variables around them, but variables outside the submarine can’t peek in at them.
 </p>
 
- <img src="../imgs/t7-JavaScript/submarine.jpg" alt="submarine" height="312" width="600">
+ <img src="../imgs/t7-JavaScript/submarine.jpg" alt="submarine" width="600">
 
 
 <p>
 The fact that variables have a local scope within functions in Java Script and Ruby is useful for preserving the name space, as we can reuse variable names inside and outside the function, check out the code snippet below which highlights this point:
 </p>
 
-<img src="../imgs/t7-JavaScript/ambivalent.png" alt="double meanining variable" height="312" width="600">
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">ambivalent</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">7</span><span style="color: #f8f8f2">;</span>
+
+<span style="color: #66d9ef">var</span> <span style="color: #a6e22e">sayhi</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">name</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+<span style="color: #66d9ef">var</span> <span style="color: #a6e22e">ambivalent</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Hello&quot;</span> <span style="color: #f92672">+</span> <span style="color: #a6e22e">name</span><span style="color: #f8f8f2">;</span>
+<span style="color: #a6e22e">console</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">log</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">ambivalent</span><span style="color: #f8f8f2">);</span>
+<span style="color: #66d9ef">return</span> <span style="color: #a6e22e">ambivalent</span><span style="color: #f8f8f2">;</span>
+<span style="color: #f8f8f2">};</span>
+
+<span style="color: #a6e22e">sayhi</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;James&quot;</span><span style="color: #f8f8f2">);</span>  <span style="color: #f92672">==&gt;</span> <span style="color: #a6e22e">Hello</span> <span style="color: #a6e22e">James</span>
+<span style="color: #a6e22e">console</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">log</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">ambivalent</span><span style="color: #f8f8f2">);</span> <span style="color: #f92672">==&gt;</span> <span style="color: #ae81ff">7</span>
+</pre></td></tr></table></div>
 
 
 <p>
@@ -105,11 +124,41 @@ A big difference in functions in these two languages is that Ruby will return an
 
 <h2> Ruby </h2>
 
-<img src="../imgs/t7-JavaScript/arg_error.png" alt="Mr Nonsense" height="312" width="600">
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6
+7
+8</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">def</span> <span style="color: #a6e22e">a</span> <span style="color: #f8f8f2">(a,</span> <span style="color: #f8f8f2">b)</span>
+ <span style="color: #f8f8f2">puts</span> <span style="color: #f8f8f2">a</span> <span style="color: #f92672">*</span> <span style="color: #ae81ff">5</span>
+ <span style="color: #f8f8f2">puts</span> <span style="color: #f8f8f2">a</span> <span style="color: #f92672">+</span> <span style="color: #f8f8f2">b</span>
+<span style="color: #66d9ef">end</span>
+
+<span style="color: #f8f8f2">a(</span><span style="color: #ae81ff">3</span><span style="color: #f8f8f2">)</span> <span style="color: #f92672">==&gt;</span>  <span style="color: #f8f8f2">calc</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">rb:</span><span style="color: #ae81ff">1</span><span style="color: #e6db74">:in</span> <span style="color: #e6db74">&#39;a&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #f8f8f2">wrong</span> <span style="color: #f8f8f2">number</span> <span style="color: #f8f8f2">of</span> <span style="color: #f8f8f2">arguments</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span> <span style="color: #66d9ef">for</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">ArgumentError</span><span style="color: #f8f8f2">)</span>
+
+<span style="color: #f8f8f2">a(</span><span style="color: #ae81ff">4</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">5</span><span style="color: #f8f8f2">)</span> <span style="color: #f92672">==&gt;</span> <span style="color: #ae81ff">20</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">9</span>
+</pre></td></tr></table></div>
+
 
 <h2> And JavaScript </h2>
 
-<img src="../imgs/t7-JavaScript/javascript_args.png" alt="JavaScript Arguments" height="312" width="600">
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6
+7</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">f</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">function</span> <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">a</span><span style="color: #f8f8f2">,</span><span style="color: #a6e22e">b</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+<span style="color: #a6e22e">console</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">log</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">a</span> <span style="color: #f92672">*</span> <span style="color: #ae81ff">5</span><span style="color: #f8f8f2">);</span>
+<span style="color: #a6e22e">console</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">log</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">a</span> <span style="color: #f92672">+</span> <span style="color: #a6e22e">b</span><span style="color: #f8f8f2">);</span>
+<span style="color: #f8f8f2">};</span>
+
+<span style="color: #a6e22e">f</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">3</span><span style="color: #f8f8f2">)</span> <span style="color: #f92672">==&gt;</span> <span style="color: #ae81ff">15</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">NaN</span>
+<span style="color: #a6e22e">f</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">4</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">5</span><span style="color: #f8f8f2">)</span> <span style="color: #f92672">==&gt;</span> <span style="color: #ae81ff">20</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">9</span>
+</pre></td></tr></table></div>
+
 
 <p>
 That concludes what functions are, and how they are mostly similar in these two languages with the notable exception of how each language handles the incorrect amount of arguments when the function is called. I hope I have made the concept of a function more accessible through the use of Mr. Men characters, since functions operate on a set of rules which guides their output I thought Mr.Men characters are a good analogy since they too operate on a set of rules which guides their behavior and output in the world. Plus how scary can the concept of functions be to approach with lovable Mr Men characters there to aid the learning process!
