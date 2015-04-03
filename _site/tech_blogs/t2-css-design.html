@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Charlie Ward | Coder </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../960_12grid.css" />
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+ </head>
+ <body>
+   <header class="wrapper">
+      <a href="../index.html" id="logo">
+        <h1> Charlie Ward </h1>
+      </a>
+      <nav>
+        <ul id="navg">
+          <li><a href="../portfolio.html">Portfolio</a></li>
+          <li><a href="../blog-list.html">Blog</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="..about.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+   <a href="../blog-list.html" id="backtob"> &#8592; Back to Blog </a>
+      <div class="hline-intro">
+      </div>
+    <div id="blog-post">
+
+      <h1>The Differences between Relative, Fixed and Absolute Positioning.</h1>
+      <h2>I'll try offer some insight into the difference between CSS positioning types, namely relative, fixed and absolute. </h2>
+      <h4> 15/02/2015
+
+      <h2> Relative Positioning </h2>
+      <p>Relative positioning is relatively easy to understand! If you type in a css file:
+
+          h1 {
+          position:relative;
+          left: 50px;
+        }
+
+        It means that the elements between all of the h1 tags in your HTML file, will appear 50px to the left of where they would have appeared otherwise!
+        </p>
+
+        <h2>Absolute Positioning</h2>
+          <p>
+            These elements are positioned on a page in relation to their "parent" element. So what is a parent element? It is the element that is above the element of a "child element." A HTML element can have one parent but many children. Let me show you an example through code to help clear up what I mean.
+          </p>
+          <p>
+            Let's say I have two lines of HTML code. The first line is a div which is a wrapper. This means that the wrapper will take up almost the entire browser screen if we set it's width to 95%.
+
+            Now let's say we have an element which will go within our wrapper, like a h1 tag.
+
+            If we use absolute positioning and in a css file type
+
+            h1 {
+            display: absolute;
+            margin-left: 5em;
+          }
+
+          It means that h1 will have a margin of 5em from it's parent element. What is the element which h1 is within? In this example it's the wrapper element.
+          </p>
+
+          <h2>Fixed Positioning</h2>
+          <p>
+            Imagine if the parent element of a child element was the browser window. Now you have an idea of what fixed positioning is. Fixed positioning fixes and element to a browser window. The element will not move up or down as the user scrolls up and down. This is useful for when a coder may be making a website which has a header that will remain on the page, no matter how much a user scrolls down.
+          </p>
+
+ </div>
+   <div class="hline-intro">
+   </div>
+
+   <footer class="wrapper">
+        <ul>
+          <li>Blog
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Popular</li>
+            </ul>
+          </li>
+          <li>Portfolio
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Viewed</li>
+            </ul>
+          </li>
+          <li>About
+            <ul>
+              <li>More Info</li>
+              <li>Contact</li>
+            </ul>
+          </li>
+        </ul>
+        <div id="social">
+          <a href="https://plus.google.com/u/0/103180266148243054743/about">
+          <img src="../imgs/googleplus.png" alt="google plus logo" class="social-icon"/></a>
+
+          <a href="https://www.facebook.com/charlie.ward.33865">
+          <img src="../imgs/facebook.png" alt="facebook logo" class="social-icon"/></a>
+
+          <a href="https://github.com/wardch/">
+          <img src="../imgs/github.png" alt="github logo" class="social-icon"/></a>
+
+          <a href="https://www.linkedin.com/profile/view?id=236147223&amp;trk=nav_responsive_tab_profile_pic">
+          <img src="../imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
+
+          <a href="https://twitter.com/CharlieDubs23">
+          <img src="../imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
+        </div>
+      </footer>
+  </body>
+</html>
+

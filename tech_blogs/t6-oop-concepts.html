@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Charlie Ward | Coder </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+ </head>
+ <body>
+   <header class="wrapper">
+      <a href="../index.html" id="logo">
+        <h1> Charlie Ward </h1>
+      </a>
+      <nav>
+        <ul id="navg">
+          <li><a href="../portfolio.html">Portfolio</a></li>
+          <li><a href="../blog-list.html">Blog</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="..about.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <a href="../blog-list.html" id="backtob"> &#8592; Back to Blog </a>
+    <div class="hline-intro">
+    </div>
+    <div id="blog-post">
+
+      <h1>Difference between Blocs, Procs and Lambdas </h1>
+
+      <img src="../imgs/t6-oop-concepts/procs.jpg" alt="closuers" width="600">
+
+      <h2> I’d like to breakdown three very similar features of Ruby which have subtle differences. Once you understand one of either Proc, Bloc and Lambda’s the key thing will be understanding their subtle differences because they function in rather similar ways.  </h2>
+
+      <h4>15/03/2015</h4>
+
+
+
+
+<h2> Key things to take away! </h2>
+
+<ol>
+<li>A proc is like a savable block which we can use again and again however procs are objects, blocks are not. </li>
+
+<li>At most one block can appear in an argument list, whereas Procs can appear multiple times. </li>
+
+<li>Lambdas check the number of arguments, while Procs do not. </li>
+
+<li>Lambda when handling the word ‘return’ will not exit the method but proc’s will exit the method.</li>
+</ol>
+
+
+<h2>Procs and Blocs</h2>
+
+<p>
+A Ruby block is just a bit of code that can be executed. Block syntax uses either do..end or curly braces ({}), like so:
+</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">[</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">3</span><span style="color: #f92672">].</span><span style="color: #f8f8f2">each</span> <span style="color: #f8f8f2">{</span><span style="color: #f92672">|</span><span style="color: #f8f8f2">x</span><span style="color: #f92672">|</span> <span style="color: #f8f8f2">puts</span> <span style="color: #f8f8f2">x}</span>
+</pre></td></tr></table></div>
+
+
+<p>
+Why do some methods accept a block and others don't? It's because methods that accept blocks have a way of transferring control from the calling method to the block and back again. We can build this into the methods we define by using the yield keyword.
+</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">def</span> <span style="color: #a6e22e">double</span><span style="color: #f8f8f2">(num)</span>
+    <span style="color: #66d9ef">yield</span><span style="color: #f8f8f2">(num)</span>
+<span style="color: #66d9ef">end</span>
+
+<span style="color: #f8f8f2">double(</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span><span style="color: #f92672">|</span><span style="color: #f8f8f2">x</span><span style="color: #f92672">|</span> <span style="color: #f8f8f2">x</span><span style="color: #f92672">*</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">}</span>
+</pre></td></tr></table></div>
+
+
+<p>
+Procs and Blocs are very similar, a proc is an object from the Proc class, that is like a bloc which can be called again and again. This is very useful if you want to keep your code DRY (Don’t Repeat Yourself). You can call a Proc with the & symbol which converts a Proc into a bloc so that it can be used by a method.
+</p>
+
+<p>
+A key difference between Procs are Blocs is that Procs are objects, and blocs are not. The fact that a bloc is not an object is a rare exception to the rule in Ruby that everything is an object.
+</p>
+
+<p>
+Everything that is a proc is an instance of the Proc class. Since Procs are objects they can have methods attached to them and we can assign proc to variables, unlike with blocs.
+</p>
+
+<p>
+Procs are easy to define! You just call Proc.new and pass in the block you want to save. Here's how we'd create a proc called cube that cubes a number (raises it to the third power):
+</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">cube</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">Proc</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">new</span> <span style="color: #f8f8f2">{</span><span style="color: #f92672">|</span><span style="color: #f8f8f2">x</span><span style="color: #f92672">|</span> <span style="color: #f8f8f2">x</span><span style="color: #f92672">**</span><span style="color: #ae81ff">3</span><span style="color: #f8f8f2">}</span>
+</pre></td></tr></table></div>
+
+
+<p>
+We can then pass the proc to a method that would otherwise take a block, and we don't have to rewrite the block over and over!
+</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">[</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">3</span><span style="color: #f92672">].</span><span style="color: #f8f8f2">collect!(</span><span style="color: #f92672">&amp;</span><span style="color: #f8f8f2">cube)</span>
+
+<span style="color: #f92672">=&gt;</span> <span style="color: #f92672">[</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">8</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">27</span><span style="color: #f92672">]</span>
+</pre></td></tr></table></div>
+
+
+<p>
+Blocks on the other hand are part of syntax of a method call. They cannot be called by themselves like Procs. Multiple procs can be used in a method list, where as with blocs only on may follow a method call.
+</p>
+
+
+
+<h2>Differences between Procs and Lambdas</h2>
+
+<p>
+It is worth mentioning that proc and lambdas both belong to the proc class. But lambdas are slightly different in two regards. You can also think of lambdas as a nameless method, which we can create and assign to a variable.
+</p>
+
+<ol>
+<li>Lambdas care about the number of arguments that you pass them. This is unlike proc’s which will either print out nil if there are not enough arguments, and if there are two many arguments, the proc will return exactly the amount of arguments it was supposed to take and ignore the rest. A proc doesn’t raise and error message whereas a lama does.
+</li>
+
+<li>A proc will not continue executing code after the keyword return, whereas a lambda will continue after the word return. When a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without going back to the calling method.
+</li>
+</ol>
+   </div>
+   <div class="hline-intro">
+   </div>
+
+   <footer class="wrapper">
+        <ul>
+          <li>Blog
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Popular</li>
+            </ul>
+          </li>
+          <li>Portfolio
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Viewed</li>
+            </ul>
+          </li>
+          <li>About
+            <ul>
+              <li>More Info</li>
+              <li>Contact</li>
+            </ul>
+          </li>
+        </ul>
+        <div id="social">
+          <a href="https://plus.google.com/u/0/103180266148243054743/about">
+          <img src="../imgs/googleplus.png" alt="google plus logo" class="social-icon"/></a>
+
+          <a href="https://www.facebook.com/charlie.ward.33865">
+          <img src="../imgs/facebook.png" alt="facebook logo" class="social-icon"/></a>
+
+          <a href="https://github.com/wardch/">
+          <img src="../imgs/github.png" alt="github logo" class="social-icon"/></a>
+
+          <a href="https://www.linkedin.com/profile/view?id=236147223&amp;trk=nav_responsive_tab_profile_pic">
+          <img src="../imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
+
+          <a href="https://twitter.com/CharlieDubs23">
+          <img src="../imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
+        </div>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Charlie Ward | Coder </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+ </head>
+ <body>
+   <header class="wrapper">
+      <a href="../index.html" id="logo">
+        <h1> Charlie Ward </h1>
+      </a>
+      <nav>
+        <ul id="navg">
+          <li><a href="../portfolio.html">Portfolio</a></li>
+          <li><a href="../blog-list.html">Blog</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="..about.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<a href="../blog-list.html" id="backtob"> &#8592; Back to Blog </a>
+      <div class="hline-intro">
+      </div>
+    <div id="blog-post">
+
+      <h1>Ruby Classes: When, why and how to use them!</h1>
+
+      <img src="../imgs/t5-ruby-classes/classey.jpg" alt="Ron Burgandy saying Stay Classey" width="300">
+
+      <h2>Classes are useful for giving objects created from that classes "innate abilities", I'll dicuss classes in this post!</h2>
+
+      <h4>08/03/2015</h4>
+
+      <p>It is useful to think of classes as factories for producing objects. You can choose what feature you would like each object manufactured from your class to have. You can bestow innate methods to each object created from a class, by defining methods within the class first. Let's run through a real world scenario for clarity!</p>
+
+      <p>
+      Imagine you owned a Pet store and you needed a way to keep track of all of your pets in your store which may have a lot of different values for their attribute such as weight, price, color etc. Then the creation of a class called Pet would help your endeavor tremendously. </p>
+
+      <p>
+      The beauty of classes allows you to write methods within a class which can then be read or changed outside of the class. This speeds up the creation of multiple pet objects when you wish to deal with the creation of a lot of pets in quick succession with different attributes.</p>
+
+      <p>
+      So again think of a class as a “factory” which produces objects with certain attributes. The first method defined in a class is typically the initialize method. You can set parameters for this method if you like, it means that when each object is “produce” from the “class factory” it must have some additional information assigned to it. In the case of pet’s you might say for every new pet created from the class Pets, it must have a “name” and a “gender”. </p>
+
+      <img src="../imgs/t5-ruby-classes/pet_initialize.png" alt="pet class being created" width="400">
+
+      <p>
+      Thus we can quickly make 2 new pet’s with different names and genders thanks to the initialize method within out class. We can do that below:</p>
+
+      <img src="../imgs/t5-ruby-classes/pets_creation.png" alt="pet's being created from the Pets class" width="400">
+
+      <p>
+      If we want to update the information of objects which were created from the Pet class that is possible too. Imagine for the pet store owner that the movie Steward Little III has just been released and the demand for hamsters sky rockets! </p>
+
+      <img src="../imgs/t5-ruby-classes/stewart_little.jpg" alt="stewart little movie" width="400">
+
+      <p>
+      Thanks to methods defined in classes which are known as “setter” methods, we can actually change the price of hamsters outside of the class. The method in question which allows us to read a pets value and edit it outside the class is called attr_acessor. Below is a useful table (although somewhat technical) recreated from the Ruby book "The Well Grounded Rubyist". The table shows how we can abbreviate methods which allow us to read or edit(write) a value for an object outside of the class.</p>
+
+    </div>
+      <table class="wrapper">
+        <tr>
+          <th scope="col">Method Name</th>
+          <th scope="col">Effect</th>
+          <th scope="col">Example</th>
+          <th scope="col">Equivalent Code</th>
+        </tr>
+        <tr class="even">
+          <td>attr_reader</td>
+          <td>Creates a reader method</td>
+          <td>attr_reader :venue</td>
+          <td>def venue <br> @venue <br> end</td>
+        </tr>
+        <tr>
+          <td>attr_writer</td>
+          <td>Creates a writer method</td>
+          <td>attr_writer :price</td>
+          <td>def price=(price) <br> @price = price <br> end</td>
+        </tr>
+        <tr class="even">
+          <td>attr_accessor</td>
+          <td>Creates reader and writer methods</td>
+          <td>attr_accessor :price</td>
+          <td>def price=(price) <br> @price = price <br> end <br><br> def venue <br> @venue <br> end</td>
+        </tr>
+      </table>
+
+    <div id="blog-post">
+
+      <p>
+      The fact that price is an instance variable means that it can be used outside of the method that it was defined in. This means that one can edit methods outside of their class. A very useful attribute of classes, if you want to change information of an object, to keep up with real world events.</p>
+
+      <h2>Inheritance</h2>
+
+      <p>
+      Now I’d like to talk about inheritance, objects from one class, can inherit all of the methods from objects of a different class. This is useful if for example we came across a situation where all colliers are dogs but not all dogs are colliers. We might want all colliers to inhere methods that are bestowed to all dogs, this is where class inheritance comes in play.</p>
+
+
+
+      <img src="../imgs/t5-ruby-classes/all_dogs_collies.jpg" alt="diagram of all collies being dogs but not all dogs are collies" width="400">
+
+      <p>
+      Imagine out pet owner decides to start selling fish. Instead of rewriting a lot of code from the pet class, we can simply allow the fish class to inherit methods from the pet class.</p>
+
+      <img src="../imgs/t5-ruby-classes/pets_inheritence.png" alt="Fish class inhereting from pets class" width="400">
+
+
+      <p>
+      Then the class Fish could inherit from the class Pets, this is what I have shown below. We can create two new Fish and they will have all of the “innate abilities” of objects which come from the Pets class.</p>
+
+      <img src="../imgs/t5-ruby-classes/fish_creation.png" alt="creating fish from the fish class" width="400">
+
+
+      <p>
+      As a caveat it’s worth stating that in Ruby a class can only inherit from one class. To conclude we can see how through inheretence, getter/setter methods and objects which can take arguments for their attributes as they are born, the use of classes proves to be very effective "object factories" indeed. </p>
+
+      <img src="../imgs/t5-ruby-classes/car_factory.jpg" alt="factory producing cars" width="600">
+
+  </div>
+   <div class="hline-intro">
+   </div>
+
+   <footer class="wrapper">
+        <ul>
+          <li>Blog
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Popular</li>
+            </ul>
+          </li>
+          <li>Portfolio
+            <ul>
+              <li>Most Recent</li>
+              <li>Most Viewed</li>
+            </ul>
+          </li>
+          <li>About
+            <ul>
+              <li>More Info</li>
+              <li>Contact</li>
+            </ul>
+          </li>
+        </ul>
+        <div id="social">
+          <a href="https://plus.google.com/u/0/103180266148243054743/about">
+          <img src="../imgs/googleplus.png" alt="google plus logo" class="social-icon"/></a>
+
+          <a href="https://www.facebook.com/charlie.ward.33865">
+          <img src="../imgs/facebook.png" alt="facebook logo" class="social-icon"/></a>
+
+          <a href="https://github.com/wardch/">
+          <img src="../imgs/github.png" alt="github logo" class="social-icon"/></a>
+
+          <a href="https://www.linkedin.com/profile/view?id=236147223&amp;trk=nav_responsive_tab_profile_pic">
+          <img src="../imgs/linkedin.png" alt="Linked in logo" class="social-icon"/></a>
+
+          <a href="https://twitter.com/CharlieDubs23">
+          <img src="../imgs/twitter.png" alt="twitter logo" class="social-icon"/></a>
+        </div>
+      </footer>
+  </body>
+</html>
