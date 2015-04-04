@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How learning to code is like learning BJJ"
-date: 2015-08-12
+date: 2014-08-12
 categories: Learning
 ---
 

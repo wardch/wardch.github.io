@@ -15,6 +15,9 @@ I think there are a few pretty good guidelines which one can follow when asking 
 
    ![karl pilkington listening quote](/imgs/karl-pilkington.jpg)
 
+
+
+
    Another important reason why being a good listener will make you ask better questions is because you an really pinpoint the moment which you stopped understanding what was being discussed. Being a bad listener might result in asking an overly vague or general question which tends to result in general, non-specific answers which may not be of any great help to you!
 
    <li><h2> Actionable </h2></li>
