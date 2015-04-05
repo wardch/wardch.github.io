@@ -4,7 +4,7 @@ email: charlieward18@gmail.com
 description: This is a website where I blog about my experience at Dev BootCamp San Francisco. I will talk about my day to day experiences, what I learned and how I am developing as a developer!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wardch.github.io" # the base hostname & protocol for your site
-twitter_username: @CharlieDubs23
+twitter_username: CharlieDubs23
 github_username:  wardch
 
 # Build settings
