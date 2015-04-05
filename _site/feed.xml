@@ -2,24 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Charlie Ward</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2015 17:31:18 -0700</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2015 17:31:18 -0700</lastBuildDate>
+    <description>This is a website where I blog about my experience at Dev BootCamp San Francisco. I will talk about my day to day experiences, what I learned and how I am developing as a developer!</description>
+    <link>http://wardch.github.io/</link>
+    <atom:link href="http://wardch.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 04 Apr 2015 17:57:14 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 17:57:14 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Tester</title>
-        <description>
-</description>
-        <pubDate>Tue, 02 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2015/06/02/tester.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/06/02/tester.html</guid>
-        
-        
-      </item>
     
       <item>
         <title>How to Ask a good question to receive a good answer!</title>
@@ -90,8 +78,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Fri, 03 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/asking/a/good/question/2015/04/03/c9-questions.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/asking/a/good/question/2015/04/03/c9-questions.html</guid>
+        <link>http://wardch.github.io/asking/a/good/question/2015/04/03/c9-questions.html</link>
+        <guid isPermaLink="true">http://wardch.github.io/asking/a/good/question/2015/04/03/c9-questions.html</guid>
         
         
         <category>asking</category>
@@ -232,8 +220,8 @@ Here’s a summary though of what makes up a recursive function:&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 02 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/recursion/2015/04/02/t8-tech.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/recursion/2015/04/02/t8-tech.html</guid>
+        <link>http://wardch.github.io/recursion/2015/04/02/t8-tech.html</link>
+        <guid isPermaLink="true">http://wardch.github.io/recursion/2015/04/02/t8-tech.html</guid>
         
         
         <category>recursion</category>
@@ -292,8 +280,8 @@ In the “bell curve” way of learning, information is hoarded because there ar
 
 </description>
         <pubDate>Tue, 12 Aug 2014 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/devbootcamp/educational/model/2014/08/12/c1-chefs-kitchen.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/devbootcamp/educational/model/2014/08/12/c1-chefs-kitchen.html</guid>
+        <link>http://wardch.github.io/devbootcamp/educational/model/2014/08/12/c1-chefs-kitchen.html</link>
+        <guid isPermaLink="true">http://wardch.github.io/devbootcamp/educational/model/2014/08/12/c1-chefs-kitchen.html</guid>
         
         
         <category>devbootcamp</category>
@@ -346,8 +334,8 @@ In the “bell curve” way of learning, information is hoarded because there ar
 
 </description>
         <pubDate>Tue, 12 Aug 2014 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/learning/2014/08/12/BJJ-vs-Coding.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/learning/2014/08/12/BJJ-vs-Coding.html</guid>
+        <link>http://wardch.github.io/learning/2014/08/12/BJJ-vs-Coding.html</link>
+        <guid isPermaLink="true">http://wardch.github.io/learning/2014/08/12/BJJ-vs-Coding.html</guid>
         
         
         <category>learning</category>
@@ -465,8 +453,8 @@ We learn through building not reading is an adage that I like about coding. This
 &lt;p&gt;I already feel better about tackling the workload for next week, now that I’ve become more aware of how I am failing and how I can succeed! I’ve resolved to myself to get up early this week. I’ve resolved to be happy before I settle down to work. And I’ve resolved to spend less time in theory and side learning, and more time being direct with getting challenges done. Time to put my new work approach in action for this week!&lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Feb 2014 00:00:00 -0800</pubDate>
-        <link>http://yourdomain.com/thinking/styles/2014/02/02/c3-thinking-style.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/thinking/styles/2014/02/02/c3-thinking-style.html</guid>
+        <link>http://wardch.github.io/thinking/styles/2014/02/02/c3-thinking-style.html</link>
+        <guid isPermaLink="true">http://wardch.github.io/thinking/styles/2014/02/02/c3-thinking-style.html</guid>
         
         
         <category>thinking</category>
