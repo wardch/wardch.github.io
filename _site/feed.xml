@@ -6,35 +6,90 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Apr 2015 17:35:01 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Apr 2015 17:35:01 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2015 17:13:55 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 17:13:55 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>How to Ask a good question to receive a good answer!</title>
+        <description>&lt;h1&gt; The Bare Essentials &lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;I think there are a few pretty good guidelines which one can follow when asking questions which will yield pretty good answers. I am a big believer in general principals as opposed to small details when approaching a problem, because often principals can encompass a wider range of scenarios. I can identity 5 principals for asking good questions, and the specific pointers for asking good questions are all nested in one or more of these principals.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;h2&gt; Be A Good Listener &lt;/h2&gt;&lt;/li&gt;
+   I think that to ask a good question one should try to be a good and eager listener. There&#39;s a number of reasons why this is an important trait for good question asking. The first is that sometimes you won&#39;t even have to ask a question if you were listening in the first place, because the answer may have been obtainable for you if you were in the moment and paying attention! I offer my opinion here a little bit reluctantly because sometimes people are listening or paying attention to the topic infront of them, but they simply don&#39;t understand what is going on anymore, in which case I always think it&#39;s so helpful for yourself and potentially for others to not be afraid to expose your ignorance and ask away!
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+   ![karl pilkington listening quote](/imgs/karl-pilkington.jpg)
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
+
+
+   Another important reason why being a good listener will make you ask better questions is because you an really pinpoint the moment which you stopped understanding what was being discussed. Being a bad listener might result in asking an overly vague or general question which tends to result in general, non-specific answers which may not be of any great help to you!
+
+   &lt;li&gt;&lt;h2&gt; Actionable &lt;/h2&gt;&lt;/li&gt;
+   The second principal for asking good questions is to imagine that you want to perform an action, but you can&#39;t perform it because you don&#39;t understand a step in the process which would have otherwise taken you to the correct answer.When asking a question in person or online on a site like StackOverflow, it&#39;s best when describing the question initially to offer what the overal goal is of your question. This means that a wide range of alternative solutions can be suggested to you that you might not have thought of if you only offered a narrow scope to your problem. Sometimes people will think to offer you a solution from an angle you never even considered, this is why offering what the overall goal you want to achieve is important.
+
+   It&#39;s a good idea in the first paragraph of your question to try and include the course of action which you took which didn&#39;t lead to the solution. Including your previous plan of action will first get you into the habit of not asking questions without trying to solve them yourself and as well it shows the person you are asking the question too that you made an honest attempt to answer the question which will be received well by any future answers.
+
+   You should also mention any kind of constraints you face when you are taking action to solve your problem. If you can&#39;t use RegEx for you answer for some reason then definitely state it so that it rules out potential actionable answers which are of no relevance to your particular problem.
+
+   Having an actionable question means making sure that you when you hear your response you will be able to implement the answer to take you to your overall goal. It&#39;s a good idea to frame a question so that you will receive actionable answers!
+
+   &lt;li&gt;&lt;h2&gt;Be Specific and Include Code&lt;/h2&gt;&lt;/li&gt;
+   I think this principal is one of the most important ones for asking a good question. A prerequisite for a specific question though is too first be a good listener so that you can pinpoint where you stopped understanding things. I&#39;m guilty of sometimes asking questions which would be made much more effective if they were more specific. In the title of your question it&#39;s a good idea to try and distill you entire idea down to one sentence without losing the essence of the problem. In relation to code in general it&#39;s a good idea to, include which error messages you received, include the language you are dealing with, include the very specific problem you are running into. And if possible try and pose a question instead of a statement.
+
+   A sharp good question is always best.
+
+   The first paragraph after your title for your question, should just serve to offer more detail about your problem, what&#39;s the overall goal, the were the steps you took so far that didn&#39;t yield you the right answer. What were the error messages that you received? What were the methods and data types that you were dealing with.
+
+   It&#39;s a good idea to include a code snippet too, to supplement your intro paragraphs about your question. Striking the balance between the right amount of code to display for your question is a skill too. Too much excess code makes it more difficult for potential answers to get to the bottom of your problem. Too little code though means that it may be difficult for answers to replicate the problem on their own computers and solve it. A good rule of thumb is to include just enough code and no more, so that someone seeing the problem for the first time could replicate the problem and answer it on their own computer without reading any superfluous code.
+
+   &lt;li&gt;&lt;h2&gt; Be Kind When Asking &lt;/h2&gt; &lt;/li&gt;
+
+   There was an excellent video I watched in Dev Bootcamp which highlighted the difference between a demand and a request! When you request something off a person you are asking them a question where you can tolerate the answer being no! If you demand something from someone however, the implication is that you will emotionally punish the person who does not meet your demand.
+
+   The principal of kindness if important when asking a question for a number of reasons. Firstly people will be more likely to offer you help when you ask for help as opposed to demand it, which is better for you the person asking the question.
+
+  This is a little bit tangential from the discussion of how to ask a good question, but I really believe that the key to being happy and self confident is to be kind to other people too, and to strive to make others happy. Because the laws of giving kindness to others don&#39;t follow traditional economic laws, where if you give something away you will have less. Instead the more of your kindness that you give away the more happy you will be! It&#39;s lucky that our genes would have our actions set up to reward us like this: for being kind is to be selfish! (tangent over!)
+
+  ![osho quote](/imgs/osho.jpg)
+
+
+
+  So to ask a good question try and be kind, don&#39;t demand but request and you&#39;ll see a lot more helpful and positive answers coming you way!
+
+
+
+
+   &lt;li&gt;&lt;h2&gt; Don&#39;t be afraid to ask &lt;/h2&gt;&lt;/li&gt;
+
+   This last principal is just as important as the others, because if you choose to struggle without any intention of asking for help your odds of failing are likely to increase! Sometimes pride or doubt or fear of appearing stupid can stifle learning because people are afraid to ask a question which might expose their ignorance.
+
+   Consider the previous 4 principals of good question asking: 1) listen well 2) frame the question so that the response can be actionable 3) be specific with what step of a process you are not understanding 4) be kind. If you follow these principals then you are never wrong to ask a question, in fact I think it&#39;s wrong for you not to ask a question. Because you deny youself a learning opportunity and others who may also be seeking for the answer for reasons which may include fear, self-doubt, reluctance to appear ignorant. But to be honest I think it&#39;s pretty liberating when you stop worrying about how other people might perceive you and just get down to deciding you are going to ask questions to help you self develop for your own benefit.
+
+   I intended for this blog post to offer some insight into what makes a good question. Hopefully if you follow these 5 principals as guidelines for asking a good question, you will start to receive the answers which you are curious to hear!
+
+
+
+
+
+
+
+&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 02 Apr 2015 03:24:20 -0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/04/02/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/04/02/welcome-to-jekyll.html</guid>
+        <pubDate>Fri, 03 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/asking/a/good/question/2015/04/03/c9-questions.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/asking/a/good/question/2015/04/03/c9-questions.html</guid>
         
         
-        <category>jekyll</category>
+        <category>asking</category>
         
-        <category>update</category>
+        <category>a</category>
+        
+        <category>good</category>
+        
+        <category>question</category>
         
       </item>
     
@@ -175,30 +230,237 @@ Here’s a summary though of what makes up a recursive function:&lt;/p&gt;
       </item>
     
       <item>
-        <title>tester post</title>
-        <description>&lt;p&gt;This is just a silly old tester file! What’s up world!&lt;/p&gt;
+        <title>DBC Educational Model</title>
+        <description>&lt;h1&gt;Dev BootCamp vs The University. Which institution is better at teaching?&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/imgs/football.jpg&quot; alt=&quot;football&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In this post I discuss my take on the DBC experience, my impression of their model of learning, and my expectations for myself when engaging with this culture at DBC as well as my feelings about trying to rise to this challenge.&lt;/p&gt;
 
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+&lt;p&gt;The first thing to note about these relatively new ways of educating people called the bootcamp model of education is that they are drastically different from the university in many ways, and I think that’s a positive thing in terms of furthering your education.&lt;/p&gt;
 
-&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+&lt;p&gt;Hopefully through writing this blog for an imagined audience I will persuade people to consider the merits of the DBC model of education as an excellent template for teaching people new topics and stimulating effective, emotionally holistic and passionate learning.&lt;/p&gt;
 
-&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.&lt;/p&gt;
+&lt;h2&gt; I really didn&#39;t like the Bell Curve! &lt;/h2&gt;
+&lt;p&gt;The Bell Curve stifles learning. Learning occurs at a quicker rate when peers share information they’ve acquired with their group.
+This is one reason why the DBC model of learning can provide a learning curve that is far steeper then a university can. Let’s consider this premise: If there is a group of people who all have different level’s of information about a certain new topic and they choose to share information directly with each other then the group will develop and learn new information at a much quicker rate then if information was hoarded by individuals. If everyone was willing to share their understanding of certain topics then everyones absolute level of knowledge would rise. This is opposed to a situation which occures under bell curve learning where information is hoarded. Without the dreaded “bell curve” information would be even more free flowing amongst peers in the same group.&lt;/p&gt;
 
-&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+&lt;p&gt;Generosity, being nice and sharing information is the DBC model of learning. If you learn a new more effective way of doing something, like a keyboard shortcut, or an effective way of understanding the differences between arrays and hashes then it won’t be long until you share your helpful information with someone and within a short amount of time that new knowledge will be shared by everyone within your cohort.&lt;/p&gt;
 
-&lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&lt;/p&gt;
+&lt;p&gt;Furthermore by teaching a skill or concept is an excellent litmus test of whether you understand something or not. It shatters any illusions of competence you may be under. Through teaching you also deepen your own understanding. This DBC way of altrusitic learning not only is effective for helping everyone understand new ideas, BUT it also feels great too!&lt;/p&gt;
+
+&lt;p&gt;Now consider the universities way of teaching.
+In the “bell curve” way of learning, information is hoarded because there are disincentives to share, which all students are aware of. The bell curve basically means that there are a finite amount of good grades to be given out for each class. So when the individual shares his work or learning with the group, the group will benefit at the individual’s expense. Hence learning through sharing is extremely limited in the university setting. In a large class room, sharing would typically occur between small cartels of friends, and that was sadly typically the extent of it.&lt;/p&gt;
+
+&lt;p&gt;Learning for everyone suffered, but hard working individuals maintained their good grades under the bell curve system.&lt;/p&gt;
+
+&lt;p&gt;But DBC says grades don’t have to be the only way to measure progress. In fact if grades were gotten rid of, and another system of feedback for the individual was put in place, then we could cast of the bell curve system of learning because a student will be compared to himself and not relatively to others. If the student is getting poor feedback they perhaps not advance to harder topics until instructors are certain that the student full understands their corse work. We can then stop hoarding information since we are not racing against other students, now it’s within everyones interest to start sharing as freely as possible. And a rising tide of knowledge lifts everyones boats!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/imgs/boat-tides.jpg&quot; alt=&quot;rising tide lifts all boats&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;This is a philosophy of education that DBC boldly pioneers.&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2&gt; Feedback &lt;/h2&gt;
+&lt;p&gt;So the question is how can the individual know if they know the material well or not? That’s where feedback loops comes into play. DBC have a web application called “feedbackinator” where students who have worked with you will give you anonymous feedback on where your current strengths and weaknesses are. The feedback must follow the acronym of ASK. (Actionable, specific and kind.) You have a good sense of your understanding of the material through other students assessing your standards. You also get feedback from DBC tutors on your coding work, if the feedback is consistently bad you may be asked to leave the program, if your work is on track they suggest areas in which you may improve. The feedback model makes each student very aware of their own understanding and motivates each student to achieve for higher goals!&lt;/p&gt;
+
+&lt;h2&gt;Emotional development&lt;/h2&gt;
+
+&lt;p&gt;I think academic institutions are sometimes reluctant to admit that a great way to foster learning is to foster emotional development. Are you aware of what is preventing you from achieving your full potential. What emotional road blocks are in your way which you might not even be aware of!&lt;/p&gt;
+
+&lt;p&gt;In a university learning is often confined to a syllabus provided to you by a lecturer, and all of the courses resources are geared towards academic topics such as economics and political science etc. But the human brain needs to be happy and in a good place in order to not procrastinate, it needs to be aware of “how it is failing” in order to steer our actions to be more in line with our goals.&lt;/p&gt;
+
+&lt;p&gt;DBC recognizes the importance of increasing a student’s emotional intelligence, as this is a master aptitude for learning in general. Since I’ve started DBC I have taken a course called “Learning how to Learn” and I’ve read a book called Apprenticeship Patterns. I wish I had watched that video course and read that book before college. It would of made learning anything new so much easier. But at least I’ve read them now. And I delved into these “meta learning” resources because DBC appreciate that if one wants to maximize their learning potential they need to take advantage of the wealth of resources out there about learning best practices!&lt;/p&gt;
+
+&lt;p&gt;I’m excited to see my newly learned learning practices employed as I have to study new computer coding languages and concepts! The passion for education at DBC is infectious.&lt;/p&gt;
+
+&lt;p&gt;It’s very refreshing to see a new educational institution apply the best methods of teaching material to students as possible, especially after being in a university for 4 years. It makes learning new stuff fun when you are typing up stuff, working with a partner, watching a video made specifically for the task you are about to perform etc. This newer model of learning doesn’t just focus on reading (like university’s tend too) but you can learn through video’s, you can learn through talking to other’s online, and you can learn from working with others too. This caters to different kinds of learners.&lt;/p&gt;
+
+&lt;p&gt;The DBC model in my opinion is much funner and inspires much more passion and hunger to learn then if a student were just sitting in a large lecture hall listening to a professor apathetically teach you a syllabus that he hasn’t changed majorly in years. I should say though that in my university experience there are some passionate lecturers who did make honest attempts to try and make their student’s understand their material as well as possible. But there were also professors which gave the impression that the papers which they were working on were their number 1 priority, and teaching was just a formality which had to be done. My experience with Trinity College Dublin was that I thought progressive educational change like adopting new technologies into the teaching syllabus was very slow. Educational inertia was all to common, unlike the DBC model were change leading to improved teaching methods is embraced.&lt;/p&gt;
+
+&lt;h2&gt;My feelings about entering this educational model&lt;/h2&gt;
+
+&lt;p&gt;I feel cautiously optimistic. Excited. Slightly nervous. Inspired to work well and work hard. I plan on living in a tech house when I’m over in San Francisco too. This is a house where about 10-20 people from different coding bootcamps like HackReactor, DBC and HackBright will also be living. I’m feeling energized when I think about feeding off the drive, motivation and hunger to learn of my house mates! I think the DBC way of learning, which is share what you know generously is so more in line with my personality then the hoarding bell curve system. I can’t wait to get started!!&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 02 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/04/02/charlie-tester-post.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/04/02/charlie-tester-post.html</guid>
+        <pubDate>Tue, 12 Aug 2014 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/devbootcamp/educational/model/2014/08/12/c1-chefs-kitchen.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/devbootcamp/educational/model/2014/08/12/c1-chefs-kitchen.html</guid>
         
         
-        <category>jekyll</category>
+        <category>devbootcamp</category>
         
-        <category>update</category>
+        <category>educational</category>
+        
+        <category>model</category>
+        
+      </item>
+    
+      <item>
+        <title>How learning to code is like learning BJJ</title>
+        <description>&lt;p&gt;The martial art of Brazilian Ji Jitzu takes about 10 years to become a master black belt but it’s a life long journey of learning. The same could perhaps be said for learning how to code.&lt;/p&gt;
+
+&lt;p&gt;These seemingly unrelated crafts actually have a surprising amount in common. In September of 2014, I took up both BJJ and computer coding at the same time. I was and still am a novice in both domaines. But as I learned both crafts I began to notice effective patterns for learning for both of my passions. Let me show you what I mean by first explaining how someone learns the martial art of Brazilian Jiu Jitsu.&lt;/p&gt;
+
+&lt;h2&gt; How you Learn Ji Jitzu &lt;/h2&gt;
+
+&lt;p&gt;So in BJJ when you first start, before you can start to be creative with your movement and before you can start moving around from position to submission with ease, and escape tight spots while focusing on your next move you first need to get a grip with the basics. The basics are just the movements you will be repeating again and again and again as a beginner, and when you start you will not know these basic movements as muscle memory yet and therefore they will take up almost all of your conscious mental focus and energy to perform.&lt;/p&gt;
+
+&lt;p&gt;As a beginner in BJJ long before you start mastering the flow of moves which might lead to a highly technical submission like the “gogoplata”, you will first need to master the scenario of trying to escape from being fully mounted. Or escaping from someone dominating you in side control. You find yourself in similar positions regularly as a beginner because those who are better then put you in inferior positions with ease which you must try to struggle and get out of.&lt;/p&gt;
+
+&lt;p&gt;The only effective, consistent and wise way to struggle out of these positions is by learning technique. Basic technique. This then provides you with enough of a platform to then get experience in other more dominant positions yourself. As you learn the basic escapes, you will then start finding yourself in positions for you to launch your own attacks. You might then start finding yourself in side control more and for the first time asking new questions to yourself  asking yourself like; how do I submit opponents from here, or how can I progress to a more dominant position?&lt;/p&gt;
+
+&lt;p&gt;As you progress in BJJ you learn the basics, then more advanced techniques, and then you find your own favorite area’s and develop and refine previous techniques while always trying to evolve your game. As a practitioner of BJJ you will also regularly be meeting with constant defeat. &lt;b&gt; To be successful in BJJ you must be able to embrace defeat as a tool for learning how to improve &lt;/b&gt; this is one of the reasons I love BJJ. You begin to treat defeat not as a personal failure but as a necessary part of the learning process.&lt;/p&gt;
+
+&lt;p&gt;In this wonderful martial art you will run into trouble through your errant processes, and you will be tapped out a lot by more advanced and experienced practitioners. You use failure as a learning tool to evolve your process. Then next time you roll, having iterated over your game, you are less likely to fail and more likely to succeed. Iterating over your game and using failure as a tool for development is a concept for learning that computer programer know well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/imgs/marcelo-garc.jpg&quot; alt=&quot;marcelo garcia&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;BJJ is like a filtering process for different kinds of egos too. The sport is not a sustainable one for those with a fixed mindset; a kind of person who’s pride get’s hurt once they are tapped which prevents them from going out as a beginner and getting tapped again. This unwillingness to expose their ignorance is a road block to learning and as a result those people with a fixed mindset tend to get filtered out of BJJ and never make it past a few weeks in the sport.&lt;/p&gt;
+
+&lt;p&gt;Those with a growth mindset will thrive in the sport. As a beginner you will get tapped a lot, and I mean a lot. A person with a growth mindset uses failure as a tool for self improvement. A person with a growth mindset thinks to themselves when they are submitted “Oh damn I got caught there when I left my arm on that mat exposed; it’s okay though I’ll ask for advice from my rolling partner to improve and next time I’ll keep my elbows tucked to my body.” Hence my counter intuitive conclusion that it’s good for the mind to get submitted a lot in BJJ; it reminds you to nurture your growth mindset; it keep your ego humble, it makes you makes sure that you’re always willing to expose your ignorance and it makes you hungry to learn to get better! Failure can be harnessed as a learning tool.&lt;/p&gt;
+
+&lt;p&gt;Lastly in BJJ in order to learn a move you must watch in be performed, but more importantly you must physically try and perform it yourself a number of times to ingrain the movement into your muscle memory and to deeply understand it. It’s all well and good to watch 10 youtube videos on different submissions, but I quickly found that if you want a move in your arsenal, you must go out and drill it yourself. This reminds me of an adage in relation to computer coding too: We learn by building not by reading.&lt;/p&gt;
+
+&lt;h2&gt; Learning in Computer Coding &lt;/h2&gt;
+
+&lt;p&gt;Now let’s consider coding. In coding you will meet failure regularly especially as a beginner. You can choose to either embrace failure as a tool for learning and evolving you “coding game” or you use failure as an indicator that you are bad, you’ll always be bad, and you should be discouraged.&lt;/p&gt;
+
+&lt;p&gt;In coding you learn the basics (navigating sublime, the command line, the fundamentals of some languages etc.) before you move onto appreciating more refined aspects of the craft like engineering principals. You must learn the basics first though as a beginner, just like you must learn the basics in BJJ too.&lt;/p&gt;
+
+&lt;p&gt;In coding, you should always be hungry to learn and enjoy the learning process not the product. You shouldn’t think “I need to have a good program” instead think I need to have a good process which will result in a good program. Similarly in BJJ you don’t think I need to submit the opponent, instead you think what string of moves and defenses can I employ in connected steps which as a result will lead me to victory.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/imgs/learn-to-code.jpeg&quot; alt=&quot;steve jobs quote&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In coding you learn through doing. (Learn coding the hard way) You can read and learn from books but to ingrain the actually code and understanding deeply into your brain, you need to actually engage experimentally with code, and embrace potential failure too and use it as a learning tool to evolve your game. Sounds a lot like learning BJJ through drilling moves!&lt;/p&gt;
+
+&lt;p&gt;In both domains you learn through doing, you learn through having good mentors, you can have a strong skill set by being both a generalist and a specialist in certain areas, and very interestingly in both area’s of work if you are passionate about the learning process you will find yourself slipping into flow and the part of your brain responsible for being aware of time will stop working as well and hours will fly by while you are so deeply connected with your craft that you don’t even notice that normally after this amount of time you should be hungry or sleepy. Flow to me is a sacred place though where I want to exist in all of the time. It’s not easy to get their all of the time though, but at Dev Bootcamp they really want you and your class to be in this state of mind all of the time! And right now, I feel like I am about to get into my computer coding vehicle for learning, and bomb down DBC’s autobahn for learning!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 12 Aug 2014 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/learning/2014/08/12/BJJ-vs-Coding.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/learning/2014/08/12/BJJ-vs-Coding.html</guid>
+        
+        
+        <category>learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Thinking About How I Think!</title>
+        <description>&lt;p&gt;In this post I want to gain a higher level of self-awareness about how I learn, what are my strengths and what are my weaknesses.&lt;/p&gt;
+
+&lt;h2&gt; Results from the Gregorc test of thinking styles &lt;/h2&gt;
+
+&lt;p&gt;A test was designed by Anthoney Gregorc to catagorize people into the various kinds of learners that they are. Different people have different ways of approaching problems, and ideal environments within which they learn. There are four catagories, within which people may fall. Typically people will have traits belonging to a number of different catagories. My results are below:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+  &lt;td&gt;Abstract Random&lt;/td&gt;&lt;td&gt;56/60&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;td&gt;Abstract Sequential&lt;/td&gt;&lt;td&gt;40/60&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;td&gt;Concrete Random&lt;/td&gt;&lt;td&gt;20/60&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;td&gt;Concrete Sequential&lt;/td&gt;&lt;td&gt;04/60&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2&gt;Abstract Random Learner (56/60) &lt;/h2&gt;
+
+&lt;p&gt;These kinds of learners like to work in groups, they try to be sensitive to the emotions of others and they like being in the company of others.&lt;/p&gt;
+
+&lt;p&gt;They prefer to cooperate then to work solo on things. They are good listeners, and like to make those around them feel happy. The pick up on non verbal cues given off by people about how others might be feeling.&lt;/p&gt;
+
+&lt;p&gt;We (AR learners) need frequent feedback. For me I think I value feedback very highly, I feel like I could always do with more! Am I where I need to be? Is my work at the right standard? Am I on the right track?&lt;/p&gt;
+
+&lt;p&gt;Ideal feedback should be actionable and I want to take my result from the Gregorc thinking style test and incorporate it into my actions at DBC. I realized that I should make more of an effort to go to office hours and ask the tutors how am I progressing along, and could they offer any advice to point me in the right direction!&lt;/p&gt;
+
+&lt;p&gt;AR learners need an outlet for their creativity. This is also true for me when I consider what I like to do in my spare time. I like to read fiction, science and biographies. I like to create funny sketch videos with my friends. I like to chat to new and passionate people and travel to explore new ideas and cultures different from mine.&lt;/p&gt;
+
+&lt;p&gt;An AR learner needs a creative outlet to tap into their full potential. My take away from this test was to get creative with how I learn and write code, I should explore different daily routines and learning technicians to see what works best for me in furthering my education.&lt;/p&gt;
+
+&lt;h2&gt; Sources of Stress for an AR learner &lt;/h2&gt;
+
+&lt;p&gt;I have become aware through reading and life experience that I do not like to be alone for too long. I need human interaction to keep me happy and balanced. I’m okay with this realization that I need to have human contact though, it’s a nice way to be I think.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  Nurture strength of spirit to shield you in sudden misfortune. But do not distress yourself with dark imaginings. Many fears are born of fatigue and loneliness - Desiderata by Max Ehrmann
+&lt;/blockquote&gt;
+
+&lt;p&gt;I also do not like when people jump to negative conclusions. I always try and be positive, and  choose to find positivity in things. I’ve always had a naturally positive disposition. It was in my final year of college that I truly began to appreciate how reflection and meditation can really allow you to discover the source of positive and negative emotions within yourself. Once I realized how you can track down the source of your emotions it freed me to take real actions which would steer me to higher levels of personal happiness. I strive to be happy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/imgs/zen-monk.jpeg&quot; alt=&quot;zen monk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also read in the book Emotional Intelligence by Daniel Goleman that your working memory is affected by how stressed you are. There is an optimal level of stress, too much and your brain begins to shut down. To little and you can feel bored or unchallenged. In Emotional Intelligence Daniel Goleman argues through empirical evidence and statistical analysis a causal chain as follows: =&amp;gt; stress =&amp;gt; worse working memory =&amp;gt; worse learning. To be a good learner is too not be overly (or underly) stressed.&lt;/p&gt;
+
+&lt;p&gt;Timing is a sources of stress for people who think like me too. Finishing one thing before starting another can be difficult. I find working within deadlines can sometimes be challenging for me, because I have the bad habit of trying to over read and research a topic instead of taking a more direct route and completing it sooner.&lt;/p&gt;
+
+&lt;p&gt;I’d rather delay putting out a minimal viable product (MVP), and instead try and put out an higher level of work closer to a dead line. This can lead to a huge build up of stress for me around deadlines, and so AR thinkers can suffer in this department. But the first step towards positive change is to be aware of your current state, I am trying to strike a more optimal balance between reading about a topic to become knowledgeable about it vs. getting work concerning the topic finished quickly.&lt;/p&gt;
+
+&lt;h2&gt; Abstract Sequential Thinkers (40/60) &lt;/h2&gt;
+
+&lt;p&gt;These kinds of thinkers need proof to back up assertions. They look for data, they look for the opinions of experts in fields before they draw inferences. This is exactly how I think actually, before I form an opinion on something I like to look at the history of the topic, I ask what are expert’s opinions, what does the data say, and does the data support what I happen to observe?&lt;/p&gt;
+
+&lt;p&gt;AS thinkers like to create things which solves a need, or makes a system run more effectively or smoothly. This sounds a lot like an entrepreneur. Which was what I believe myself to be. Creating to solve a need, that’s when I’m myself! That’s when I can slip into a state of flow!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/imgs/level-of-flow.jpg&quot; alt=&quot;flow char&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reading about how I like to create to solve a problem and about how I like to work with people and their emotions made me think maybe I should perhaps go into the field of social entrepreneurship. Combining emotional awareness as an abstract reasoner with the creative problem solving of abstract sequential thinkers.&lt;/p&gt;
+
+&lt;p&gt;Again apparently these types of thinkers do not like to be rushed while working, they like to explore all of the facts before acting. This set off a mini-alarm in my head. In both of my learning styles, the issue of time management was brought up. I am now even more aware of how I am going to manage my time and approach my work then ever.&lt;/p&gt;
+
+&lt;h2&gt;What has been the biggest struggle for you so far at DBC? &lt;/h2&gt;
+
+&lt;p&gt;The biggest struggle for me thus far has been, getting work done quickly. I seem to allow the work to expand to fill the time I have.  I find that I’ll go on tangents or down rabbit holes with my work and suddenly I’ll get less done then I had hoped! If I could nail down the issue of getting work done, within deadlines that I set myself maybe I’d feel a lot better and get the same amount of work produced in a shorter amount of time. Apparently my learning style doesn’t like to be rushed or working within time limits, however a person with a growth mindset believes that with the right amount of effort, I can change my habits and the way I approach work. I strongly agree with this growth mindset theory. I need to adapt my approach to suit my learning style, and for week 4 at DBC I’ve tailored a schedule for myself to try and develop my deadline/timing weaknesses as an AR and AS thinker!&lt;/p&gt;
+
+&lt;h2&gt;What Can I Do to Strengthen my Thinking and Learning weaknesses and play to my strengths&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rise Early&lt;/li&gt;
+
+I listened to a pod-cast and a news article this week about the merits of getting up early! A common denominator for a lot of successful people is that they tend to rise early! I can see my weekly routine this coming week being, every night make a to-do list the night before, and then get working on it the following morning. This means I can start working on things directly after breakfast and immediately fall into the habit of taking the shortest route possible for each challenge and produce and MVP as quickly as possible and in the process trying to tackle my weakness of over-researching/over-reading too much!
+
+
+
+So learners like me need emotional support and nourishment to thrive, they like to feel positive and happy. I should perhaps to do something I like in the morning before I start my days work. I’d like to meditate, do yoga or exercise. This will allow me to go into my learning enviorment with a happy mindset, this frame of mind is important for an AR learner, thus playing to my strengths.
+
+
+
+Waking up early at like 6/6:30am also means that you will have the morning to yourself. Other people&#39;s priorities will not interfer with yourself until you&#39;ve been up for at least 5 hours! That&#39;s a lot of alone time to get work done! Being up in the morning also feels great too, there&#39;s a kind of peaceful electricity in the air!
+
+&lt;blockquote&gt;Let me have a draught of undiluted morning air. Morning air! If men will not drink of this at the fountainhead of the day, why, then, we must even bottle up some and sell it in the shops, for the benefit of those who have lost their subscription ticket to morning time in this world - David Henry Theroux&lt;/blockquote&gt;
+
+
+
+When I wake up in the morning, drink a glass of water, exercise or meditate, eat breakfast and then begin my days work. I will try and &quot;eat my frogs first&quot;, which means doing the harder things before the easier things. However studies have shown that you should try and begin your day doing any writing that you will have to do at some point during the day. The task of writing apparently focuses the mind and primes it for work later on in the day. So I will begin the day by doing any writing that needs to be done, and then code for the remainder of the day and take notes, trying to get through each challenge as swiftly as possible to again deal with my
+
+
+
+&lt;li&gt;Use rewards to pull you towards your work&lt;/li&gt;
+
+Learning preferences: I like to be pulled towards my work, it&#39;s when I produce at my highest standard! I have an aural and visual learning preference and I also like to ask questions. This week I will try and play to my strengths. I will try and go to office hours at least twice, to ask questions. I will try and watch videos on material to help me absorb it and play to my strengths. I&#39;ll rewards myself for good work produced. After every study session of work that I finish, I will try to jot down what I just learned for a feeling of accomplishment.
+
+
+&lt;li&gt; Becoming Aware of Entrances to Rabbit Holes &lt;/li&gt;
+
+We learn through building not reading is an adage that I like about coding. This week to help me take a more direct route with my work I will always be trying to solve a problem and read when I do not understand the theory, instead of reading a lot and then trying to solve the problem. When I do need to read before beginning to experiment with code I will time box myself and not go over that amount of time. This will force me to begin breaking the habit of not getting started until I feel fully prepared! Because we are always outside of our comfort zones, getting started without all of the information is just something I am going to have to embrace!
+&lt;/ol&gt;
+
+&lt;h3&gt; To become self-aware makes you feel better!&lt;/h3&gt;
+
+&lt;p&gt;I already feel better about tackling the workload for next week, now that I’ve become more aware of how I am failing and how I can succeed! I’ve resolved to myself to get up early this week. I’ve resolved to be happy before I settle down to work. And I’ve resolved to spend less time in theory and side learning, and more time being direct with getting challenges done. Time to put my new work approach in action for this week!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Feb 2014 00:00:00 -0800</pubDate>
+        <link>http://yourdomain.com/thinking/styles/2014/02/02/c3-thinking-style.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/thinking/styles/2014/02/02/c3-thinking-style.html</guid>
+        
+        
+        <category>thinking</category>
+        
+        <category>styles</category>
         
       </item>
     
