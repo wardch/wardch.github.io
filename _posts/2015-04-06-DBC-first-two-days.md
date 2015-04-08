@@ -1,0 +1,60 @@
+---
+layout: post
+title: "First two days at DBC! So...much...learning!"
+date: 2014-02-02
+categories: DBC
+---
+
+<h1> Technical Learning </h1>
+
+The first two days at DBC have been crazy intense! I feel like I have been dropped on a treadmill on the highest setting in a gym where I just have to start sprinting to keep up! But this is what I anticipated, the bootcamp model was always going to be intense.
+
+During the first two days, we coded in pairs, I learned about recursion when calling a method which turns numbers into words. I also learned the method divmod, which I love. If called on an integer it will provide a 2 element array, containing the quotient and the remainder, as follows.
+
+{% highlight ruby %}
+1536.divmod(1000) => [1, 536]
+536.divmod(100) => [5, 36]
+36.divmod(10) => [3,6]
+{% endhighlight %}
+
+I also got some great practice with the roman numerals challenge today. There were so many ways to tackle the challenge, you could use iteration through a hash (which needed to be ordered from highest value to lowest) and then shovel into an empty string the corresponding numeral for the key in a hash. You could use recursion to solve the problem. You could also use a massive if/elsif/else branch too (which was messy). Today I learned that there are so many ways to tackle one problem, and often it makes sense to extrapolate the logic of what you want to do first, psuedo code then attempt the problem. Also by reading code more often I like learning new methods, as it exposes you to unfamiliar and potentially effective methods.
+
+In the dictionary challenge I learned how to sort an array, and take user input in a loop format. We also figured out a way when using gets.chomp and storing the answer in an array, not to store "" in the array when enter is hit, our code looked as follows:
+
+
+
+{% highlight ruby %}
+until answer == ""
+      puts "Hello, user can you please enter a word or hit enter to end the program"
+      answer = gets.chomp
+      @dictionary.push(answer) if answer != ""
+    end
+{% endhighlight %}
+
+
+Lastly I learned about scope in classes in the dictionary challenge. The attr_reader and attr_writer are getter and setter methods, they really are used outside of the class to be called on objects instantiated from the class.
+
+Otherwise you can just use instance variables within a class, so that you can access them from within any method. If you do not use an instance variable within a loop in a class, then the scope for that variable will just be within that class. My knowledge of variable scope within a class improved today. As a good rule of thumb its best to have variable scope contained to the lowest levels as possible, because if too many variables are accessible in too many different parts of the program there is huge potential for collesion with variables with the same name which will cause the application to break.
+
+In terms of completing more challenges I've decided to timebox for tomorrow. I will spend a certain amount of time on a challenge and then move onto the next one so that I get equal exposure to all challenges.
+
+
+
+<h1> Cultural Learning </h1>
+
+I went to an engineering empathy class too today and learned about the super ego. That's the voice inside your head which tell you, you are not good enough. It's your inner critic. An inner critic is not a bad thing by any strech of the imagination. My inner critic tells me that there is much in my life that I should get organized to be succuesful at DBC, however the manner in which my inner critic or super ego attacks me is not healthy I realized today at the engineering empathy class.
+
+Too often I stress myself unnecessarily by allowing my inner voice to say that I'm too disorganized and I'll never reach my full potential because I can't seem to get all my challenges done in time because I spend too long on each challenge. I can't do many of the readings because I'm spending too long on challenges. I can't do the 100 other things I need to do outside of DBC because DBC itself is consuming my whole life. The SuperEgo starts telling me to be more stressed and sharp with things, be more to the point or you will FAIL! But that isn't healthy.
+
+It's good to discern where you need to improve in your week and day and even in the moment. That's where my inner critic is useful, he tell me that stuff all the time. I realized though that I need to just carry on with all of my work and give my full effort in a way more relaxed and clearheaded place and I'll get much more done and the quality of my work will improve. I noticed after my EE class, that when I coded I flew through challenges with Erica. So the lesson of today, was you can be relaxed and happy if you just calmly stick to a plan of action and see it through as best as you can.
+
+<h1> DBC routine </h1>
+The routine is key for success at DBC. If you have a bad routine I think you'll get stressed out and won't learn as much. Here are a few things I'd like to do over the next 9 week.
+
+<ol>
+  <li>Continue to Blog everyday. Try do the readings in the morning before DBC. Work on challenges, then Blog about the readings and what you learned at night </li>
+  <li> Make all of your food and do your laundry for the week on Saturday morning. Then come into DBC after.</li>
+  <li>This Saturday join the gym. Work out on Monday, Wednesday and Friday.</li>
+  <li> Quit every night between the hours of 8 and 8:30pm. That'll leave time to go home, finish up reading other peoples code, blog about what you learned, and prepare for the next day.</li>
+  <li> Read the Ruby Docs for 20 mins every day, and try look at some new methods to play with in IRB.</li>
+</ol>
