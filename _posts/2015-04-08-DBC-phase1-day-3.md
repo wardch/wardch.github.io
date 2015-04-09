@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DBC: Day 3
+title: DBC Day 3
 date: 2015-04-07
 categories: DBC Phase 1 Blog
 ---
