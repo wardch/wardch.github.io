@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First two days at DBC! So...much...learning!"
-date: 2014-02-02
+date: 2015-04-06
 categories: DBC
 ---
 
@@ -25,7 +25,7 @@ In the dictionary challenge I learned how to sort an array, and take user input 
 
 {% highlight ruby %}
 until answer == ""
-      puts "Hello, user can you please enter a word or hit enter to end the program"
+      puts "Please enter a word or hit enter to end the program"
       answer = gets.chomp
       @dictionary.push(answer) if answer != ""
     end
