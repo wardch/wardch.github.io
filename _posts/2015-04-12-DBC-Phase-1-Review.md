@@ -1,0 +1,26 @@
+---
+layout: post
+title: "DBC: Phase 1: Day 5"
+date: 2015-04-12
+categories: Week Review
+---
+
+This Weekend Jack and I decided to redo our algorithem that solved Suduko boards, expect we made the board and each cell within the board, as objects. Making each cell an object was a revelation for me. It meant that every cell could hold information about itself which we could then later use to search across the board's rows and columns and boxs for other data about cell objects.
+
+<h1> Technical Learning </h1>
+
+I redid the pig latin challenge, and used regex, this helped my understanding of how to search a data structure for specific information.
+
+I redid the binary and linear search algorithms, this helped me get a better understanding of recursion too, as I used recursion in the binary search program.
+
+I redid the Suduko board, in OOP. However I appreciated the use of a smarter algorithm . You can fill in the suduko board to a point, by examining possible entries for a cell based on other cell values in the same row, columun and box as the cell under consideration.
+
+However when the board is semi-filled in you need to create an algorithm which will select a cell, consider it's possible enteries for the cell. Then create hypothetical boards for each possibility for the cell, then just run a previously definied method above, which will start to try and fill the board in based on the information of each cell in the same row, column and box.
+
+We didn't complete this guessing challenge, but we came close to solving it. We're planning on refactorign on Monday.
+
+I also took a quiz to assess how I am doing, and I feel like I am on track at the moment in DBC! I feel in my own ability at the moment and most importantly after our first EE class on Tuesday, I took a really mentally healthy approach to my work. I'm stress free and curious as I try and complete each challenge!
+
+<h1> Cultural Learning </h1>
+
+This weekend on Sunday I took the half morning and afternoon off to go for a cycle across Golden Gate Park and swim in the pacific ocean. I was so glad I did this because after spending some time away from the keyboard, it's energized me to want to work even harder for week 2 of phase 1. I learned that it's important to take meaningufl breaks away from your work sometimes, if you've worked hard. It's better to work hard, and have a break in that kind of cyclical fashion, as opposed to always try and work hard, indefinitely.
