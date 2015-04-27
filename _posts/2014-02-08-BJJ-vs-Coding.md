@@ -5,9 +5,9 @@ date: 2014-08-12
 categories: Learning
 ---
 
-The martial art of Brazilian Ji Jitzu takes about 10 years to become a master black belt but it's a life long journey of learning. The same could perhaps be said for learning how to code.
+The martial art of Brazilian Jiu Jitzu takes about 10 years to become a master black belt but it's a life long journey of learning. The same could perhaps be said for learning how to code.
 
-These seemingly unrelated crafts actually have a surprising amount in common. In September of 2014, I took up both BJJ and computer coding at the same time. I was and still am a novice in both domaines. But as I learned both crafts I began to notice effective patterns for learning for both of my passions. Let me show you what I mean by first explaining how someone learns the martial art of Brazilian Jiu Jitsu.
+These seemingly unrelated crafts actually have a surprising amount in common. In September of 2014, I took up both BJJ and computer coding at the same time. I was and still am a novice in both domaines. But as I learned both crafts I began to notice effective patterns for learning for both of my passions. Let me show you what I mean by first explaining how someone learns the martial art of Brazilian Jiu Jitzu.
 
 <h2> How you Learn Ji Jitzu </h2>
 
