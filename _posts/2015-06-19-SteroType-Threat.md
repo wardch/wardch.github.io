@@ -7,7 +7,7 @@ categories: Tech Driven Unemployment
 
 <h2>Stereotype Threat: The mental placebo pill, which when ingested causes people to under perform!</h2>
 
-<img src="barack-obama-guiness.jpg" alt="barack obama drinking guiness">
+<img src="/imgs/barack-obama-guiness.jpg" alt="barack obama drinking guiness">
 
 <p>
 Let’s say there are two people that are average at spelling, Adam and Brian. If they are both given a spelling test at the university level but Adam is told a lie moments before the test begins.
@@ -67,22 +67,27 @@ This is like stereotype threat, your placebo which you have swallowed (maybe sub
 <h2>My Limited Experience with Stereotype Threat</h2>
 
 <p>
-I am a young, mid-twenties, Irish, white male. If stereotype threat comes from a fear that the group you belong to isn’t capable of performing something well, then I wonder what is the opposite: where you have a belief that the group that you come from is capable of everything!
+I am a young, mid-twenties, Irish, white male. If stereotype threat comes from a fear that the group you belong to isn’t capable of performing something well, then I wonder what is the opposite: where you believe that the group you belong to are high achievers.
 </p>
 
 <p>
-From my experience of traveling around Europe and living in France and America for extended periods of time I always found that the general feeling towards people coming from my strange little rain soaked Island is always warm, welcoming and interested! I look at the world of sport, of business, of technology and I see the Irish as an underdog punching way above their weight! I see them as humble (despite my previous sentence), down to earth people, who may have their flaws like all countries but are ultimately a kind and friendly people! However talking in generalities makes me somewhat uncomfortable (unless as mentioned above their is empirical evidence to match the claims!) because my direct experience is some what limited to the circles of people that I move in!
+From my experience of traveling around Europe and living in France and America for extended periods of time I always found that the general feeling towards people coming from my strange little rain soaked Island is always warm, welcoming and interested! I look at the world of sport, of business, of technology and I see the Irish as an underdog punching far above their weight! I see them as humble (despite my previous sentence), down to earth people, who may have their flaws like all countries but are ultimately a kind and friendly people! However talking in generalities makes me somewhat uncomfortable (unless as mentioned above their is empirical evidence to match the claims!) because my direct experience is some what limited to the circles of people that I move in!
 </p>
 
 <p>
-I believe that one of the best ways to remove stereotype threat is that you must not have a fear based mindset when encountering challenges which test you. Remove this habit of self-doubt and you’ll remove the root of the problem, which is that you think you are not good enough. Easier said then done though, I’ll admit but I think if a person recognized that the sum of their talents do not belong to a group, they belong to the individual.
+I believe that one of the best ways to remove stereotype threat is to first become aware that you are being motivated by fear, and then try and remove fear based thought patterns.
+
+Remove this habit of self-doubt and you’ll remove the root of the problem, which is that you think you are not good enough. Easier said then done though, I’ll admit but I think if a person recognized that the sum of their talents do not belong to a group, they belong to the individual then stereotype threat will become less and less of an issue.
 </p>
 
 <p>
-If you are aware and hard working within your domain then confidence will begin to replace fear. But I’m not going to offer too much advice on a subject like stereotype threat that luckily I don’t have any direct negative experience with (that I'm consciously aware of!).
-
-
-The main stereotype which springs to mind for my country is a love of Guinness which can't be too bad given that Obama himself wasn't afraid to indulge that Irish stereotype! Cheers.
-</p>
+If you are aware and hard working within your domain then confidence will begin to replace fear. But I have to admit I'm reluctant to offer my opinion or advice on a subject like stereotype threat that luckily I don’t have any direct negative experience with (that I'm consciously aware of!). The main stereotype which springs to mind for my country is a love of Guinness which can't be too bad given that Obama himself wasn't afraid to indulge that Irish stereotype!
 
 <img src="/imgs/barack-obama-guiness.jpg" alt="Obama drinking guiness">
+
+<p>
+To conclude despite my lack of direct first hand experience with stereotype threat, I think in an industry such as tech which is dominated by white males it's important to try and empathize with those who may on some level experience stereotype threat.
+</p>
+
+
+
