@@ -9,6 +9,8 @@ categories: Tech Driven Unemployment
 
 <h4>As technology advances jobs sectors are going to be destroyed at a rate so quick that it has no historical precedent. History has shown us though that when unemployment rates become too high the social and political consequences are real: ranging from protests to riots, and even full blown revolutions. In this post I will discuss advancements in the tech industry and the tsunami of unemployment coming in the direction of industrial societies </h4>
 
+<hr>
+
 
 <p>
 When I was an undergraduate in my final year at Trinity College Dublin, I couldn't help but notice that the university had installed a "Fast Lane Self-Service System" in the library. It was a system where students can loan out college books in an entirely automated process which besides from direct input from the user, the system does not require human input to run. Four years prior to this, the Darien public library in Connecticut bought self-service check-out machines. Now, with customers scanning books themselves, the library is processing more books than ever while shaving 15 percent from staff hours by using fewer part-time workers. An ominous sign of what is to come in labor markets around the world.
