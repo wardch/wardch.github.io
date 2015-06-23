@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
+<div class='headshot'>
 ![headshot from DBC](/imgs/charlie_headshot.jpg)
+</div>
 
 I'm a junior software developer who has a background in mathematical economics and political science. For the last 6 months or so I have been attending Dev Bootcamp, an intense 19+ week education program, so that I could learn how to code, but perhaps more importantly "learn how to learn". At DBC self-guided learning is encouraged, and you are strongly encouraged to use techniques of learning which have been empirically tested and proven to be effective.
 
