@@ -8,7 +8,7 @@ categories: Tech Driven Unemployment
 
 <h1>The Tech Industry and a Tidal Wave of Unemployment </h1>
 
-<img src="/imgs/seri_help.jpg" alt="seri asking for help">
+<img src="../imgs/seri_help.jpg" alt="seri asking for help">
 
 <h2>As technology advances jobs sectors are going to be destroyed at a rate so quick that it has no historical precedent. History has shown us though that when unemployment rates become too high the social and political consequences are real: ranging from protests to riots, and even full blown revolutions. In this post I will discuss advancements in the tech industry and the tsunami of unemployment coming in the direction of industrial societies </h2>
 
