@@ -82,7 +82,7 @@ Remove this habit of self-doubt and you’ll remove the root of the problem, whi
 If you are aware and hard working within your domain then confidence will begin to replace fear. But I have to admit I'm reluctant to offer my opinion or advice on a subject like stereotype threat that luckily I don’t have any direct negative experience with (that I'm consciously aware of!). The main stereotype which springs to mind for my country is a love of Guinness which can't be too bad given that Obama himself wasn't afraid to indulge that Irish stereotype!
 
 <img src="/imgs/barack-obama-guiness.jpg" alt="Obama drinking guiness">
-
+<p></p>
 <p>
 To conclude despite my lack of direct first hand experience with stereotype threat, I think in an industry such as tech which is dominated by white males it's important to try and empathize with those who may on some level experience stereotype threat.
 </p>
