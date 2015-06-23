@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Stereotype Threat"
+title: "Stereotype Threat: The mental placebo pill, which when ingested causes people to under perform"
 date: 2015-06-19
 categories: Tech Driven Unemployment
 ---
-
-<h2>Stereotype Threat: The mental placebo pill, which when ingested causes people to under perform!</h2>
 
 <img src="/imgs/barack-obama-guiness.jpg" alt="barack obama drinking guiness">
 
