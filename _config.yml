@@ -1,7 +1,7 @@
 # Site settings
 title: Charlie Ward
 email: charlieward18@gmail.com
-description: This is a website where I blog about my experience at Dev BootCamp San Francisco. I will talk about my day to day experiences, what I learned and how I am developing as a developer!
+description: This is a website where I predominantly blog about my exeriences as a junior webdeveloper and any issues related to tech.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wardch.github.io" # the base hostname & protocol for your site
 twitter_username: CharlieDubs23

@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-![football in boulder](/imgs/football-boulder.jpg)
+![headshot from DBC](/imgs/charlie_headshot.jpg)
 
-Hi I'm Charlie, I'm 23 years old and I'm from Dublin Ireland.
+I'm a junior software developer who has a background in mathematical economics and political science. For the last 6 months or so I have been attending Dev Bootcamp, an intense 19+ week education program, so that I could learn how to code, but perhaps more importantly "learn how to learn". At DBC self-guided learning is encouraged, and you are strongly encouraged to use techniques of learning which have been empirically tested and proven to be effective.
 
-I love to learn how to code, and this website is a place where I document my previous thoughts on different topics or ideas relating to computer code.
+I'm also a dual citizen meaning that although I grew up in Dublin, I am free to work in the US or EU without restriction.
 
-For the next 9 weeks (April 6th - June 12th) I will begin my time at Dev BootCamp San Francisco. I'm going to use this blog as a took for documenting what I learned to help organize my and make my thoughts more concrete as I bomb down the DBC autobahn of learning! Stay tuned as I try and discover how to create beautiful and meaningful things!
+I believe it's important to be happy and self-fulfilled through identifying your passions and then pursing them vigorously.
+
+Please don't hesitate to connect with my on LinkedIn/Twitter or drop me an email at charlieward18@gmail.com!
