@@ -5,14 +5,10 @@ date: 2015-06-23
 categories: Tech Driven Unemployment
 ---
 
-
-<h1>The Tech Industry and a Tidal Wave of Unemployment </h1>
-
 <img src="../imgs/seri_help.jpg" alt="seri asking for help">
 
-<h2>As technology advances jobs sectors are going to be destroyed at a rate so quick that it has no historical precedent. History has shown us though that when unemployment rates become too high the social and political consequences are real: ranging from protests to riots, and even full blown revolutions. In this post I will discuss advancements in the tech industry and the tsunami of unemployment coming in the direction of industrial societies </h2>
+<h4>As technology advances jobs sectors are going to be destroyed at a rate so quick that it has no historical precedent. History has shown us though that when unemployment rates become too high the social and political consequences are real: ranging from protests to riots, and even full blown revolutions. In this post I will discuss advancements in the tech industry and the tsunami of unemployment coming in the direction of industrial societies </h4>
 
-<h4>21/06/2015</h4>
 
 <p>
 When I was an undergraduate in my final year at Trinity College Dublin, I couldn't help but notice that the university had installed a "Fast Lane Self-Service System" in the library. It was a system where students can loan out college books in an entirely automated process which besides from direct input from the user, the system does not require human input to run. Four years prior to this, the Darien public library in Connecticut bought self-service check-out machines. Now, with customers scanning books themselves, the library is processing more books than ever while shaving 15 percent from staff hours by using fewer part-time workers. An ominous sign of what is to come in labor markets around the world.
@@ -49,7 +45,7 @@ Well let’s consider those employed in the automobile industry in America all o
 Why does the current situation merit close attention from politicians and policy makers relative to past trends? In the past when a new technology replaces an old technology new jobs are created and after a period of readjustment employment rates remain stable. However the difference between past trends and now is that because technology has become so advanced and autonomous, the need for human input for machines to function is becoming greatly reduced and in some cases not needed at all for machines to function. With less demand for human input we could see a large unemployment problem in the future. The driverless car will soon become the first of many hugely disruptive <b> autonomous machines. </b>
 </p>
 
-<img src="/imgs/tech_unemp/sensory_input_driverless_car.jpg" alt="driverless car">
+<img src="/imgs/sensory_input_driverless_car.jpg" alt="driverless car">
 
 <p>
 Reflecting the significance of the transition taking place the noble laureate economist Wassily Leontief said “the role of humans as the most important factor of production is bound to diminish in the same way that the role of horses in agricultural production was first diminished and then eliminated by the introduction of tractors.”
@@ -73,7 +69,7 @@ Before jumping into the data and academic research to defend my argument that ad
 <p> Cloud computing is a catch-all term for the ability to rent as much computer power as you need without having to buy it. Cloud computing reduces the opportunity cost for businesses of investing in technology over human labour. Even small businesses which have no budget for a big technology department can take advantage of the cheap computer power offered by the cloud.</p>
 
 
-<h1> Academic Support </h2>
+<h1> Academic Support </h1>
 
 <h2>Oxford Academics' Opinion on Tech-Unemployment Problem </h2>
 The University of Oxford’s programme on the Impacts of Future Technology attempted to quantify the extent of the threat that rapid advances in technology posed on employment levels. 700 jobs were considered in the study and each job was assigned different weights depending on the education required for the job, the skills required, how automatable the jobs was, and what were the current technological obstacles in the way that prevented computerization. The Oxford researchers say that 45% of America’s occupations will be automated within the next 20 years.
@@ -88,7 +84,9 @@ Increases in technology tend to hollow out middle class jobs and polarize the wo
 The MIT professor in the Sloan School of Management Erik Brynjolfsson and his collaborator and co-author Andrew McAfee believe that rapid technological change has been destroying jobs faster than it is creating them, contributing to the stagnation of median income and the growth of inequality in the United States. They also suspect, something similar is happening in other technologically advanced countries. The two MIT academics produce evidence to support this claim which they call the great decoupling.
 </p>
 
-<<img src="/imgs/tech_driven_unemployment_us.jpg" alt="productivity vs unemployment">
+<img src="/imgs/tech_driven_unemployment_us.jpg" alt="productivity vs unemployment">
+
+<p></p>
 
 <p>
 Brynjolfsson and McAfee believe advances in technology is the reason why we have seen a dichotomy from the year 2000 onwards where productivity has actually risen but at the same time employment levels have gone down. The MIT professors call this the great decoupling. Historically these lines have always followed each other but Brynjolfsson and McAfee both believe that because technology have become so advanced productivity has continued to go up, but the technology that is driving this increase in productivity is now capable of functioning with <b> less and less human input </b> which means that employment levels are going down. This is strong evidence which points towards a technology unemployment problem.
