@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stereotype Threat: The mental placebo pill, which when ingested causes people to under perform"
+title: "Stereotype Threat: The performance placebo"
 date: 2015-06-19
 categories: Tech Driven Unemployment
 ---
