@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Tips to survive and thrive at DBC!"
+title: "Tips to survive, thrive and jive at DBC!"
 date: 2015-07-14
 categories: DBC
 ---
+<img src="/imgs/brothersfromtheeast.png" alt="man we balling hard">
+
+
 This is a guide that I created off the top of my head one evening having just finished DBC a week or two before hand. The theme of this guide is advice that I would give to an incoming DBC boot, starting off on Day 1 of phase 1. I started thinking of different pieces of advice I would give, and it ended up being a 29ish bullet point document. As a caveat I would say that not all of these tips will be effective for everyone, but I thought that they were helpful enough for me to want to write them down and pass them on to incoming boots about to run through the crazy, weird, fun gauntlet that is DBC!
 
 If you're an incoming DBC boot reading this during phase 1, some of the tips wont make sense to you until you advance through the upcoming phases. Some of the advice even surrounds the job hunt. To make it easier to use this guide, I'll try and divide my tips into sections based on the different DBC phases. That way you can reference this guide again, for tips that will make sense when you learn the content thought during the different DBC phases.
@@ -42,6 +45,9 @@ A good first step when self correcting is to first look at the terminal whenever
 </li>
 
 <li>Not really a tip but all of the teachers have a cracking sense of humour! So I dunno...enjoy it I guess? </li>
+
+<img src="/imgs/namanded.png" alt="if your reading this, I command your DOM curiosity!">
+
 
 <li>Become a shortcut ninja. A guy in the cohort below me had a goal to touch the mouse as little as possible while coding. It's a good goal, you'll get much faster at writing code if you can use <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html">Sublime ShortCuts</a> effectively.</li>
 
