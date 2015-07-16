@@ -45,8 +45,17 @@ A good first step when self correcting is to first look at the terminal whenever
 </li>
 
 <li>Not really a tip but all of the teachers have a cracking sense of humour! So I dunno...enjoy it I guess? </li>
+<p></p>
+<!--  lazy I know -->
+<p></p>
+<p></p>
 
 <img src="/imgs/namanded.png" alt="if your reading this, I command your DOM curiosity!">
+
+<p></p>
+<!--  lazy I know -->
+<p></p>
+<p></p>
 
 
 <li>Become a shortcut ninja. A guy in the cohort below me had a goal to touch the mouse as little as possible while coding. It's a good goal, you'll get much faster at writing code if you can use <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html">Sublime ShortCuts</a> effectively.</li>
