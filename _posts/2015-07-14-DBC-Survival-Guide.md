@@ -59,13 +59,15 @@ I'd recommend getting "Flux" for your computer. It's a program which eliminates 
 
 <li>I thought POODR was a little heavy, so was Ducketts CSS/HTML, JS book. Don't get me wrong they're great to read if you have the time. But if you feel like there is a lot of other stuff going on, then just try and skim chapters and their content and go for like a 50% comprehnesion plus. It's honestly better then knowing nothing. And if you don't have time to skim, just google around for a blog about what the essence of what POODR is about.</li>
 
-<li></li>
+<li>Get headspace, those 10 free meditations were like a lifeline for me at times at DBC when I could feel myself becoming sort of snappy with myself and others. I ended up buying the app and I would always find some peace when DBC was getting too stressful by dipping into the meditation room at lunch for 15 mins to become mentally happy and relaxed again!</li>
+
+<li>Everyday try and choose to <b>enjoy the craziness and confusion</b>! It's gonna be a slight emotional rollercoaster every day, but like sky diving you can either choose to be scared or excited as you jump out of the plane which is the start of phase 1! </li>
 
 
 
 </ol>
 
-As a caveat, I want to refrain from being too dogmatic about what you should and shouldn't do at DBC to get the most value out of your experience. In fact one of the biggest tips I could offer is to be experimental with regards to what works for you. For example, I tend to benefit from a code-along video when learning something new. You may benefit more then I do from skimming through books, or listening to a podcast. The key is to be mindful about how you learn, constantly ask yourself "was what I just did for the last 20 minutes effective?", if it was keep on doing it. If it wasn't change the source of information you are using.
+
 
 <h1>Phase 2</h1>
 <ol>
