@@ -41,6 +41,8 @@ A good first step when self correcting is to first look at the terminal whenever
   </ul>
 </li>
 
+<li>Not really a tip but all of the teachers have a cracking sense of humour! So I dunno...enjoy it I guess? </li>
+
 <li>Become a shortcut ninja. A guy in the cohort below me had a goal to touch the mouse as little as possible while coding. It's a good goal, you'll get much faster at writing code if you can use <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html">Sublime ShortCuts</a> effectively.</li>
 
 <li>Get close with your cohort and embrace and genuinely encourage each others enthusiasm and drive to tackle challenges each day. Simply put, coding is way easier and funner when you're having a good time. And teaching others can be so fun and benefical for both parties if both people are super enthusasitic. EVEN IF YOU BOTH DON"T KNOW WHAT YOUR DOING! I found pairing occasionally frustrating at the start of DBC, because I didn't like a situation where both my pair and I didn't know what we were doing. But the more time you spend at DBC, you'll probably begin to notice the more pleasant the pairing sessions are becoming because eventually everybody builds up a base knowledge of how ruby works in addition to learning ways to self correct themselves.
