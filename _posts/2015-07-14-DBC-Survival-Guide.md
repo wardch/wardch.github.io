@@ -44,18 +44,8 @@ A good first step when self correcting is to first look at the terminal whenever
   </ul>
 </li>
 
-<li>Not really a tip but all of the teachers have a cracking sense of humour! So I dunno...enjoy it I guess? </li>
-<p></p>
-<!--  lazy I know -->
-<p></p>
-<p></p>
 
-<img src="/imgs/namanded.png" alt="if your reading this, I command your DOM curiosity!">
 
-<p></p>
-<!--  lazy I know -->
-<p></p>
-<p></p>
 
 
 <li>Become a shortcut ninja. A guy in the cohort below me had a goal to touch the mouse as little as possible while coding. It's a good goal, you'll get much faster at writing code if you can use <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html">Sublime ShortCuts</a> effectively.</li>
@@ -70,7 +60,21 @@ This means that at least there is momentum the whole time during a pairing sessi
 <p></p>
 
 
-<li>Yoga was my life line at times! (So San Francisco I know!) I loved yoga, just saying it put me in a really good mood. Go hard at the Monday one and you'll feel amazing all day, I found it much easier to enter a calm and alert mental flow state after yoga! I also even think I enjoyed pairing more. Yoga 2 times a week will keep you relatively balanced. I'd recommend doing it for the 9 weeks. If not then find another form of exercise. I just to run sometimes too during lunch to the top of Coit tower, which also helped me decompress. Ginnie Martin got me onto that. </li>
+<li>Yoga was my life line at times! (So San Francisco I know!) I loved yoga, just saying it put me in a really good mood. Go hard at the Monday one and you'll feel amazing all day, I found it much easier to enter a calm and alert mental flow state after yoga! I also even think I enjoyed pairing more.
+
+<p></p>
+<!--  lazy I know -->
+<p></p>
+<p></p>
+
+<img src="/imgs/namanded.png" alt="if your reading this, I command your DOM curiosity!">
+
+<p></p>
+<!--  lazy I know -->
+<p></p>
+<p></p>
+
+ Yoga 2 times a week will keep you relatively balanced. I'd recommend doing it for the 9 weeks. If not then find another form of exercise. I just to run sometimes too during lunch to the top of Coit tower, which also helped me decompress. Ginnie Martin got me onto that. </li>
 
 <li> Sleep is key. In the pre-phase 0 material, DBC recommends taking an online course called "Learning how to Learn". There is an interesting section of the course dedicated to sleep. Barbara Oakley says when we sleep knowledge that we learned during the day is more deeply assimilated into the brain as new information is compared with pre-exisiting neural pathways from different skills or knowledge which we already knew.
 
