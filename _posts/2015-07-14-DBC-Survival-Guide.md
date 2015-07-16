@@ -15,6 +15,8 @@ If you're an incoming DBC boot reading this during phase 1, some of the tips won
 <ol>
 <li>LEARN HOW TO SELF CORRECT. This is so important. It applies to all 3 phases and beyond. The more new technologies I learnt in different phases the more I appreciated the importance of quickly identifying the tools you will use to unstick you from a jam while coding. You'll waste a lot of time stuck that you could have spent learning, if you get good at self correcting. So first you should look at the terminal whenever your code doesn't work. Read the error message aloud. Identify the line number. Then a great principal I found while debugging, is to start extremely simple by commenting out all of your lines in whatever you are working on, then slowly start p-ing things out. That means writing puts or p followed by whatever line of code you want to examine, and checking the terminal to see if it's output matches your expectations. Doing this in small increments is a good way to track down bugs as you'll find that point of departure between how you expect your code to function and how it is really functioning. <b>If in doubt P it out.</b> And more generally "learn to self-correct."  </li>
 
+<li>Binding.pry! This is a similar theme to the previous point but binding.pry deserves it's own bullet point. During your first week, ask a teaching assistant how it works when you are stuck on a problem. It's a debugging tool which if you invest a small amount of time becoming familiar with, it will save you way more time in the long run tracking down bugs!</li>
+
 <li>Be experimental and 'mindful' with your own learning. In college and high school I was kind of trained to find a thick text book and start on page 1 and just linearly plough though it until I finished the book. I sort of cringe at how I would punish myself with this style of learning having now completed DBC. I think one of the best things you can do is to become experimental and mindful of your own learning. When you open a book, or watch a video or whatever ask yourself "what am I hoping to be able to do in the next 20mins". Then after 20 mins ask yourself, was that good? Was it effective at achieving my goal for example of understanding a basic AJAX call? If it was then keep on doing it. If it wasn't then stop punishing yourself and just find a different way to learn what you want to learn. (I can't resist giving a shout out to code-along videos though, I found them highly effective at learning whatever it was I needed to know!)</li>
 
 <li>Learn by Doing. I believe to get really good at call of duty you need to play a ton of call of duty. Reading about COD isn't the same as playing it. It's the same with coding. I think the best way to learn, is just time on the keyboard instead of reading/watching videos etc. Videos and books are useful too, but I just think you get the most return on your investment by actually trying to write code yourself. Plus it will shatter any illusions of competence you may have been under through reading about an idea in a book, but when it comes to coding it yourself you don't know how to connect each step.</li>
@@ -41,6 +43,7 @@ If you're an incoming DBC boot reading this during phase 1, some of the tips won
 <img src="/imgs/ex-machina.jpg" alt="ex-machina pic">
 
 </li>
+<p></p>
 
 
 <li>Yoga was my life line at times! I loved yoga, just saying it put me in a really good mood. Go hard at the Monday one and you'll feel amazing all day, I found it much easier to enter a calm and alert mental flow state after yoga! I also even think I enjoyed pairing more. Yoga 2 times a week will keep you relatively balanced. I'd recommend doing it for the 9 weeks. If not then find another form of exercise. I just to run sometimes too during lunch to the top of Coit tower, which also helped me decompress. Ginnie Martin got me onto that. </li>
@@ -60,6 +63,9 @@ I'd recommend getting "Flux" for your computer. It's a program which eliminates 
 <li>I thought POODR was a little heavy, so was Ducketts CSS/HTML, JS book. Don't get me wrong they're great to read if you have the time. But if you feel like there is a lot of other stuff going on, then just try and skim chapters and their content and go for like a 50% comprehnesion plus. It's honestly better then knowing nothing. And if you don't have time to skim, just google around for a blog about what the essence of what POODR is about.</li>
 
 <li>Get headspace, those 10 free meditations were like a lifeline for me at times at DBC when I could feel myself becoming sort of snappy with myself and others. I ended up buying the app and I would always find some peace when DBC was getting too stressful by dipping into the meditation room at lunch for 15 mins to become mentally happy and relaxed again!</li>
+
+<li>If your in the SF location find <b>Sherif and talk to him about learning</b> and how you learn and ask for advice for how to learn effectively. Sherif is an incredibly inspiring teacher who is extremly passionate about teaching. You'll get a lot of value by just walking up to him, introducing yourself and asking him for tips on learning. He'll be happy to share his thoughts!</li>
+
 
 <li>Everyday try and choose to <b>enjoy the craziness and confusion</b>! It's gonna be a slight emotional rollercoaster every day, but like sky diving you can either choose to be scared or excited as you jump out of the plane which is the start of phase 1! </li>
 
@@ -113,4 +119,5 @@ I'd recommend getting "Flux" for your computer. It's a program which eliminates 
 <ol>
 <li>For career week I recommend using this awesome resumé making website called <a href="http://creddle.io/">creddle</a>, I made mine on it and it comes out beautifully, one employer at a meet up I went to just goes "damn thats a nice resumé" when I handed the sheet to him haha. You enter the content and it automatically formats it for you and offers your different themes.
 </li>
+
 </ol>
