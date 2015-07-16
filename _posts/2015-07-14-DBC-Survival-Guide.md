@@ -34,11 +34,11 @@ If you're an incoming DBC boot reading this during phase 1, some of the tips won
   </ul>
 </li>
 
-<li>Get Good with Sublime ShortCuts. A guy in the cohort below me had a goal to touch the mouse as little as possible while coding. It's a good goal, you'll get much faster at writing code if you can use <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html">Sublime ShortCuts</a> effectively.</li>
+<li>Become a shortcut ninja. A guy in the cohort below me had a goal to touch the mouse as little as possible while coding. It's a good goal, you'll get much faster at writing code if you can use <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html">Sublime ShortCuts</a> effectively.</li>
 
 <li>Get close with your cohort and embrace and genuinely encourage each others enthusiasm and drive to tackle challenges each day. Simply put, coding is way easier and funner when you're having a good time. And teaching others can be so fun and benefical for both parties if both people are super enthusasitic. EVEN IF YOU BOTH DON"T KNOW WHAT YOUR DOING! I found pairing occasionally frustrating at the start of DBC, because I didn't like a situation where both my pair and I didn't know what we were doing. But the more time you spend at DBC, you'll probably begin to notice the more pleasant the pairing sessions are becoming because eventually everybody builds up a base knowledge of stuff and ways to self correct themselves which means at least there is momentum the whole time during a pairing session and then they start to become really fun. Here's the 2015 SF Pocket Gophers having fun going to see Ex-Machina together!
 
-![ex-machina](imgs/ex-machina.jpg)
+<img src="/imgs/ex-machina.jpg" alt="ex-machina pic">
 
 </li>
 
@@ -103,9 +103,9 @@ I'd recommend getting "Flux" for your computer. It's a program which eliminates 
 </ol>
 
 <h1>Phase 3</h1>
+<ol>
 <li>You'll have more time then you had during phase 2, use it wisely! During phase 3 (before final projects) you get a chance to be more independent with regards to your own learning. You'll find that you have a little more breathing room to explore whatever you are interested in when compared to phase 2 when you were guzzling from the DBC firehose of information! I suggest using your time to recover if you need it, or take on more work outside of the challenges if you feel like you have the energy. Either way during phase 3, you will have more time then in phase 2 to do whatever you like and it's good to be aware of that going into the phase!</li>
 
-<ol>
 <li>Do Michael Hartl's famous (and free) <a href="https://www.railstutorial.org/book"> rails tutorial.</a> I would recommend trying to go at a fast pace, skimming where possible since the tutorial is quite lengthy. I also used GitHub instead of BitBucket like he suggests at the start. This tutorial will give you a very good grounding in rails though if you can try and complete as much as possible before the final projects. Plus it's a code-a-long tutorial where you build an app similar to twitter using rails. Having that twitter app on your GitHub is something you can show off to prospective employeers too as a rails app you built at DBC, in addition to whatever you make during your final 10ish days at DBC. </li>
 </ol>
 
